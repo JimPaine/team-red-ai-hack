@@ -1,0 +1,1081 @@
+BOOK OF NEWS
+Two men sitting on a couch with laptops
+Introduction
+Foreword by Frank X. Shaw
+Welcome everyone to Microsoft Ignite, and once again we have a book’s worth of news about Azure, AI, Business Applications, Industry Cloud, Microsoft 365, Power Platform, Security and Windows ready for your reading pleasure!
+
+Our objective with the Book of News is to provide you with a guide to all the announcements we are making, with all the details you need. Our standing objective remains as it has always been – to make it as easy as possible for you to navigate all the latest information and provide key details on the topics you are most interested in.
+
+At this year’s Microsoft Ignite, we will welcome more than 200,000 people virtually and 7,500 people from satellite locations globally. Attendees will gain the world-class training skills necessary to get the full value from Microsoft technologies, while also getting a sneak peek at new products and services that will be coming in the future.
+
+There is no question the past few years have been a period of dramatic change for the global community, with disruptions to our society, the economy, political landscape and the way we work. The backdrop for our news at Microsoft Ignite is how the Microsoft Cloud can help our customers do more with less, which represents our renewed focus to help customers maximize their existing IT investments and optimize costs in uncertain economic times.
+
+As organizations move forward from the disruption of the past few years and adapt to new challenges, they are turning to their technology providers to help them succeed. They need trusted solutions that empower their employees to make an impact, help them get the most out of their technology investments and are backed by the data and insights needed to drive meaningful business outcomes.
+
+We have a great lineup of news and some exciting moments planned for this year’s Microsoft Ignite. I hope that you can join us.
+
+As always, send us your feedback! We want to know how we can do better. Are you getting the information and context you need? What can we do to make the experience even better next time?
+
+fxs
+
+What is the Book of News?
+The Microsoft Ignite Book of News is your guide to key news items that we are announcing at Microsoft Ignite. The interactive Table of Contents gives you the option to select the items you are interested in, and the translation capabilities make the Book of News more accessible globally. (Just click the translate button below the Table of Contents to enable translations.)
+
+We also pulled together a folder of imagery related to a few of the news items. Please take a look at the imagery here.
+
+We hope the Book of News provides all the information, executive insight and context you need. If you have any questions or feedback regarding content in the Book of News, please email eventcom@microsoft.com.
+
+If you’re interested in speaking with an industry analyst about news announcements at Microsoft Ignite or Microsoft’s broader strategy and product offerings, please contact wemsanalystrelations@we-worldwide.com.
+
+A group of people meeting in a room
+1. AI 1.1. AI
+​​​​​​​1.1.1. Numerous updates to Azure Cognitive Services announced
+Azure OpenAI Service, available with limited access in preview, will offer access to Dall·E 2, a model that allows users to generate custom images using text or images.
+
+The addition of the Dall·E 2 model will expand the breadth of use cases Azure OpenAI Service customers can employ. Select customers can generate content, images and code to help users be more productive executing business-critical tasks.
+
+Azure Cognitive Service for Language enhances summarization and expands language support across language skills with more natural language understanding (NLU) and natural language generation (NLG) capabilities, so customers can efficiently implement business apps for document and conversation digitalization scenarios.
+
+Enhanced summarization capabilities, including abstractive document and generic conversation summarization, are now available in preview with limited access. Expanded language coverage for various features, enhanced contact center AI capabilities and access to Language Studio is now generally available.
+
+Computer Vision is adding two services, now in preview, Image Analysis 4.0 and Spatial Analysis on the Edge. Image Analysis 4.0 is an updated model, designed to extract a wide variety of visual features from images to improve digital asset management and customer accessibility. Spatial Analysis on the Edge will improve safety and security by ingesting streaming video from cameras, extracting insights and generating events to be used by other systems.
+
+Azure Cognitive Service for Speech is adding new features to its speech-to-text and text-to-speech services. These services will help transform the way companies deliver media experiences, accessibility and customer service.
+
+They include new languages and emotions added to Neural Text to Speech to improve and scale the reach of voice assistants and more; synthetic voice training with Custom Neural Voice, including multi-style tones like cheerful or sad; Embedded Speech, enabling companies to use Azure speech services on their devices; customization features like lexicons to improve accuracy of speech recognition; and improved audio processing of all Azure prebuilt voices.
+
+Learn more about this update or download visual assets.
+
+​​​​​​​1.1.2. Azure Form Recognizer capabilities in preview
+Azure Form Recognizer offers new capabilities, now in preview, including a prebuilt AI model that automatically extracts content unique to contracts, such as parties and payment terms, and expanded language support to 275 languages worldwide.
+
+Learn more about this update.
+
+1.1.3. Azure Machine Learning features new capabilities now in preview
+Azure Machine Learning continues to provide value for machine learning pros and IT admins, with new features that help streamline and simplify the development experience. Updates include:
+
+Azure Machine Learning registries, in preview, will help machine learning pros promote, share and discover machine learning artifacts such as models, pipelines and environments across multiple workspaces in an organization. This will enable customers to track model and data lineage across different workspaces in different Azure subscriptions, making cross-team operations easier.
+
+Azure Container for PyTorch and Azure Data Science Virtual Machines for PyTorch, now in preview, are curated environments and custom images that will bundle innovative technologies used by Microsoft to set up, develop, accelerate and support optimized training for PyTorch models.
+
+Responsible AI dashboard in Azure Machine Learning will be generally available soon, making it possible for customers to easily implement Responsible AI by debugging machine learning models and making informed data-driven decisions. The Responsible AI scorecard introduces an on-demand UI experience for generating PDF scorecards, making it possible for no-code/low-code customers to create reports for their models.
+
+Additional updates include:
+
+Automated machine learning features, including support for natural language processing and image tasks, are now generally available. Automated code generation is now generally available for all automated machine learning tasks across tabular, image and text data.
+Python SDK v2, now generally available, simplifies managing the entire machine learning life cycle from training single jobs to pipelines and model deployments with Python functions.
+Apache Spark pools integration, now in preview, will enable machine learning pros to quickly iterate on data preparation at scale on Spark clusters within Azure Machine Learning platform.
+Hugging Face will host BLOOM, the world’s largest open multilingual language model with 176 billion parameters, on AzureML Managed Endpoints for the community to test performance.
+Learn more about this update.
+
+​​​​​​​1.1.4. Microsoft Project Bonsai adds AI features to platform
+Microsoft Project Bonsai is a low-code industrial AI development platform, in preview, where engineers will be able to create AI-powered automation without the need for an extensive background in data science. Companies are using Project Bonsai to help improve product quality and efficiency.
+
+Several updates and enhancements to Project Bonsai, all in preview, include:
+
+Support for action masking, which will help to guarantee valid behavior and speed up training by restricting the actions the AI system can take based on the current state of the system. For example, it’s now easier to train a system to know not to route work to a piece of equipment that is down for maintenance.
+Training from data with OfflineRL will enable customers to build AI systems that control or optimize a process given a recorded dataset of states and actions from a historian, Internet of Things (IoT) system or other record.
+Model-based training acceleration will introduce the ability to use models to accelerate training for slower simulations. This will reduce the time and computational cost required to train a control policy on a key customer use case.
+Assessment 2.0 will offer rich analytical tools to help customers evaluate automation performance and use the insights to build better AI systems. The tools will help users visualize policy trajectories, drill into low-performing episodes and compare performance across different AI systems.
+Availability of Bonsai Samples in Azure Marketplace. These are examples and simulation models that can be used for getting started with machine teaching.
+Project Bonsai is adding Tata Consultancy Services (TCS) as a partner. Through Project Bonsai, TCS will help organizations build intelligent industrial control systems using simulations and develop AI-powered automation to improve production efficiency and reduce downtime – without requiring data science. TCS will feature Microsoft’s autonomous systems products in its Pace Ports, a global network of co-innovation hubs that bring together an ecosystem of startups, technology partners and academia to spur innovation, enable enterprises to embrace digital transformation and foster a culture of accelerated innovation for better outcomes.
+Learn more about this update.
+
+Two women sit outside working on a laptop
+2. Azure 2.1. Azure Data
+​​​​​​​2.1.1. Microsoft Intelligent Data Platform adds integrated Partner Ecosystem
+The Microsoft Intelligent Data Platform, which unifies databases, analytics and governance, has added the Partner Ecosystem, a selection of complementary and integrated partner solutions to help customers accelerate their data integrations and value creation. The Partner Ecosystem, now generally available, meets customers where they are with select cloud-based partner solutions that complement native Azure platform capabilities with better together solutions, all within the integrated Microsoft Intelligent Data Platform. This first wave of partner solutions spans each layer of the Microsoft Intelligent Data Platform including:
+
+Databases: MongoDB and YugabyteDB bring leading cloud native NoSQL and NewSQL databases together with analytics and data governance within the Microsoft Intelligent Data Platform.
+Analytics: Informatica, Confluent, dbt Labs, Fivetran, Qlik and Striim bring low-code/no-code data integration and transformation solutions for analytics to simplify the process of building and operating complex enterprise- grade pipelines to integrate data from a variety of sources and transform pipelines with a single-pane experience in Microsoft Purview.
+Data governance: Profisee, CluedIn, Delphix and OneTrust represent Master Data Management, compliance and security solutions for hybrid and multicloud data estates.
+Learn more about this update or download visual assets.
+
+2.1.2. ​​​​​​​​​​​​​​Azure Cosmos DB adding distributed PostgreSQL support
+Azure Cosmos DB now brings fast, flexible and scalable service to open-source relational data with the introduction of distributed PostgreSQL support. Built upon the Hyperscale (Citus) engine, the new Azure Cosmos DB for PostgreSQL brings everything developers love about PostgreSQL and the powerful Citus extension to Microsoft’s fast and scalable database for cloud-native app development. Developers can now build apps with both relational and non-relational (NoSQL) data using the same familiar database service.
+
+Azure Cosmos DB includes improvements to the developer experience for open-source technologies. MongoDB developers can now store larger documents with 16 MB document support in Azure Cosmos DB for MongoDB. These updates are generally available.
+
+Learn more about this update.
+
+​​​​​​​2.1.3. Encryption at rest with customer-managed keys on Azure Database for PostgreSQL – Flexible Server now in preview
+Azure Database for PostgreSQL – Flexible Server, a fully managed and intelligent PostgreSQL database service, now supports encryption for data at rest with customer-managed keys. This feature, now in preview, will offer customers an additional layer of control by enabling central management of encryption keys, addressing specific security and compliance requirements and putting organizations in full control of a key’s usage permissions and life cycle. Customer-managed keys are stored in Azure Key Vault, a centralized key-management service that provides additional security, high availability and disaster recovery capabilities.
+
+Learn more about this update.
+
+​​​​​​2.1.4. Autoscale IO feature for Azure Database for MySQL now in preview
+Azure Database for MySQL, a fully managed and scalable MySQL database service, can now scale input/output (IO) on-demand without having to pre-provision a certain amount of IO per second. Customers will enjoy worry-free IO management in Azure Database for MySQL Flexible Server because the server will scale input/output operations per second (IOPS) up or down automatically depending on workload needs.
+
+With the Autoscale IO preview, Azure Database for MySQL customers pay only for the IO they consume and no longer need to provision and pay for resources they are not fully using, saving both time and money. In addition, mission-critical Tier 1 apps can achieve consistent performance by making additional IO available to the workload at any time. Autoscale IO eliminates the administration required to provide the best performance at the least cost for Azure Database for MySQL customers. This feature is now in preview.
+
+Learn more about this update.
+
+​​​​​​2.1.5. Azure Data Studio now supports Oracle Database assessments for migration to Azure-managed databases
+The Database Migration Assessment for Oracle, an Azure Data Studio extension powered by Azure Database Migration Service, now offers a migration assessment for moving from Oracle Database to Azure Database for PostgreSQL. The assessment includes database migration recommendations and an evaluation of database code complexity. Through the same tooling, customers can get target sizing recommendations for Oracle Database migration to Azure Database for PostgreSQL and Azure SQL, including Azure SQL Database Hyperscale, which is ideal for large workloads up to 100 TB. These updates are in preview.
+
+With these changes, migration planning is simplified for Oracle customers looking to modernize their data estate to Azure managed databases. Azure Database for PostgreSQL and Azure SQL Database offer excellent value for Oracle customers looking to reduce administration overhead and optimize database license costs while maintaining performance. The new assessment scenarios help customers speed up migrations while reducing risk, making it easier than ever to move Oracle Database to Azure.
+
+Learn more about this update.
+
+​​​​​​​2.1.6. New Azure Synapse Analytics features coming soon in preview
+Azure Synapse Analytics is adding two new features to deliver a simple no-code experience to integrate Microsoft 365 data with Azure Synapse Analytics.
+
+A new pipeline template for Microsoft 365 data, coming soon in preview, will simplify the configuration experience by enabling a one-click experience to set up Mapping Data Flows. This new feature will eliminate the extra steps needed to connect Microsoft 365 source data for analytics, making it easier for customers to configure an always synchronized and compliant integration.
+
+Mapping Data Flows, coming soon in preview, builds on top of the Copy Activity functionality by improving the way Microsoft 365 data is brought in for analysis. Mapping Data Flows will clean, normalize and flatten the data (Parquet format) in multiple data sinks such as Azure Data Lake Storage (ADLS), Azure Cosmos DB and Synapse SQL DW (dedicated SQL pool). Flattened data is much cheaper and faster to process with big data processing. Additional data sync support gives customers flexibility and greater efficiency in constructing data pipelines that optimize workflows.
+
+Learn more about this update.
+
+2.1.7. New machine learning updates in Azure Synapse
+Azure Synapse introduces two new updates related to machine learning:
+
+​R language support with key library management capabilities is now in preview. The R language will enable data scientists to apply the industry-standard R language to process data and develop machine learning models.
+A new version of the SynapseML library is now available. SynapseML is a massively scalable machine learning library built on Apache Spark, aiming to simplify the creation of machine learning pipelines. The new version includes .NET support, integration with Generative Pre-trained Transformer (GPT) language models, MLflow integration and more.
+Learn more about this update.
+
+​​​​​​2.1.8. Azure Data Explorer adds new sources for near real-time analytics
+Azure Data Explorer is a fully managed, high-performance, big data analytics platform that makes it easy to analyze high volumes of data in near real-time. The Azure Data Explorer toolbox gives customers a complete solution for data ingestion, queries, visualizations and management.
+
+Data ingestion is the process by which data is added to a table and is made available for querying in Azure Data Explorer.
+
+Azure Data Explorer is adding ingestion support from the following data sources:
+
+Amazon Simple Storage Service (S3)
+Azure Synapse Link from Azure Cosmos DB to Azure Data Explorer
+OpenTelemetry Metrics, Logs and Traces
+Azure Stream Analytics output
+Streaming ingestion support for the Telegraph agent output
+These additions make it easier to bring data into Azure Data Explorer to provide near real-time analytics and give customers a complete solution for data ingestion, query, visualization and management.
+
+Learn more about this update.
+
+2.1.9. SAP Change Data Connector for Azure Data Factory now generally available
+The SAP Change Data Connector (CDC) for Azure Data Factory is now generally available. This feature, which previewed in June 2022, allows customers to easily bring SAP data into Azure for analytics, AI and other apps.
+
+Using Azure Data Factory, an industry-leading data integration service, customers can ingest data from diverse data sources (e.g., multicloud, SaaS and on-premises) and transform data at scale. Azure Data Factory works seamlessly to combine data and prepare it at cloud scale. Customers use Azure Data Factory to ingest data from different SAP data sources (SAP Hana and SAP Cloud for Customers, among others) and combine them with data from their operational stores (e.g., Azure Cosmos DB and the Azure SQL family). This enables customers to gain deep insights from both SAP and non-SAP data.
+
+​Using Azure Data Factory Mapping Data Flows, customers can extract changes from different SAP systems using the new SAP CDC, transform the data at scale and deliver the data into a data lake or data warehouse for analytics.
+
+Learn more about this update.
+
+​​​​​​​2.1.10. Microsoft Purview Data Governance helps business users do more
+Microsoft Purview Data Governance, the unified governance platform for hybrid data estates, has several new features including:
+
+Improved root cause analysis and traceability with SQL Dynamic lineage (now generally available) and fine-grained lineage (in preview) on Power BI datasets. Customers can do thorough root cause analysis from a single location in Microsoft Purview.
+Metamodels that will enable customers to define organization, departments, data domains and business processes on their technical data. This feature is in preview.
+Machine learning-based classifications will make detection of human names and addresses simple and scalable in user data. This feature is in preview.
+Learn more about this update.
+
+2.2. Azure Hybrid, Multicloud & Edge
+​​​​​​2.2.1. New, cloud-like capabilities available for Azure Arc-enabled SQL Server
+Azure Arc-enabled SQL Server has several new features, now generally available, which allow customers to take advantage of a cloud-like experience, including:
+
+A single sign-on experience that integrates with Azure Active Directory (Azure AD). Customers can sign in and manage all Azure resources and their SQL environments through the same portal in one integrated step.
+Improved security and monitoring with Microsoft Defender that allows customers to assess and secure SQL Server estates across multicloud, hybrid environments.
+Learn more about this update.
+
+​​​​​​2.2.2. New deployment options for Azure Kubernetes Service enabled by Azure Arc
+Hybrid Azure offerings provide consistent experiences for customers across on-premises, one or more clouds and the edge. With new Azure Kubernetes Service (AKS) hybrid deployment options, in preview, customers can now effectively extend cloud to edge as they centrally deploy and manage AKS enabled by Azure Arc on Windows devices, Windows IoT, Windows Server 2019/2022 and Azure Stack HCI. Through this consistent managed Kubernetes experience, organizations can run containerized apps regardless of their location in a datacenter, the Azure cloud and/or a physical location or device.
+
+Additional benefits of the new deployment options include:
+
+A consistent deployment experience in Azure for creating, managing and securing AKS clusters running anywhere to run apps on a user’s infrastructure.
+Creating and deploying an on-premises implementation of AKS on supported infrastructures from the Azure portal or command line interface (CLI).
+Deploying containerized Windows and Linux apps in datacenters and at the edge.
+Creating GitOps configurations to keep Kubernetes clusters in sync and automating updates for new and existing deployments.
+Learn more about this update.
+
+2.2.3. New feature release for Azure Stack HCI
+Azure Stack HCI offers subscription-based management for customers who need hybrid infrastructure in their own datacenters. Enabled by Azure Arc, Azure Stack HCI is introducing a new release with many new features to increase security, versatility and performance. They include:
+
+Enhanced Azure remote support: Users can grant consent on an as-required basis for Microsoft personnel to remotely gather logs and commands, greatly simplifying support. This feature is in preview.
+​Azure Marketplace for VM self-service: Access to VM images, including Windows 10 Enterprise multi-session and Windows 11 Enterprise multi-session, directly from the Azure Marketplace. This feature is in preview.
+​Intent-based network automation with Network ATC​ is generally available.
+Learn more about these updates.
+
+2.3. Azure Infrastructure
+2.3.1. Azure Automanage now available for Azure Arc-enabled servers and Azure virtual machines
+Azure Automanage saves time by automating configuration and management of servers throughout a customer’s entire life cycle at scale, whether they are in Azure or in hybrid environments enabled by Azure Arc.
+
+With the general availability for Azure virtual machines (VMs) and Arc-enabled servers, Microsoft adds new capabilities to further automate configuration and management of any server, including:
+
+Applying enhanced backup settings and different auditing modes for the Compute Server Baselines.
+Specifying custom Log Analytics Workspace and Azure tags to identify resources based on settings relevant to an organization.
+Support for Windows 10 VMs.
+Support for enabling Microsoft Antimalware.
+Azure Automanage provides unique capabilities for Windows Server VMs in Azure that simplify management and improve workload uptime to further increase efficiency and cost savings. One of these capabilities is Hotpatch, which allows patching without the need to reboot every installation, reducing downtime of Windows Server Azure edition VMs in Azure.
+
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+​​​​​​​2.3.2. New Virtual Machine Scale Set and Spot Virtual Machines capabilities
+A new feature for Virtual Machine Scale Sets will enable Azure customers to mix Standard and Spot Virtual Machines (VMs) in the same virtual machine scale set. Now in preview, this new capability is available with flexible orchestration mode and can help Azure customers achieve significant cost savings* given the deep discount rates that Spot VMs usually provide.
+
+Virtual Machines Scale Sets’ flexible orchestration mode provides Azure customers with the ability to deploy highly available large-scale cloud infrastructure quickly, reliably and easily.
+
+Customers can also set up policies that define the percentage allocation of Standard VMs versus Spot VMs. The number of Standard VMs that need to be running at any given time, in addition to the percentage of Spot VMs, can also be defined.
+
+*Actual discounts may vary based on region, VM type and Azure compute capacity available when the workload is deployed.
+
+Learn more about this update.
+
+2.3.3. Azure Premium SSD and Azure Elastic SAN updates
+Next-gen Azure Premium SSD Disk Storage is now generally available
+
+Premium SSD v2 gives Azure customers the opportunity to improve the price-performance of their storage systems and optimize costs. The new Azure Disk Storage offering is ideal for apps that require high levels of performance without the need to increase storage capacity.
+
+This advanced block storage solution is designed for performance-critical workloads that consistently need sub-millisecond latency combined with high input/output operations per second (IOPS) and throughput. Premium SSD v2 provides the most flexible and scalable general-purpose block storage in the cloud, enabling customers to meet the ever-growing demands of production workloads like SQL Server, Oracle, MariaDB, SAP, Cassandra, MongoDB, big data, analytics, gaming, virtual machines (VMs) or stateful containers.
+
+With Premium SSD v2 Azure customers can now provision up to 64 tebibytes (TiBs) of storage capacity, 80,000 input/output operations per second (IOPS) and 1,200 megabits per second throughput on a single disk. In addition, customers can separately provision disk storage capacity, IOPS and throughput based on their workload requirements, resulting in greater flexibility when managing performance and costs. In addition, customers can now also store incremental snapshots for Premium SSD v2 on Standard SSD storage.
+
+Azure Elastic SAN now in preview
+
+Azure Elastic SAN, now in preview, is a unique cloud-native and fully managed storage area network (SAN) service. Combining SAN-like capabilities with the benefits of being a cloud-native service, Azure Elastic SAN will offer a scalable, cost-effective, high-performance and reliable storage solution. It can connect to a variety of Azure compute services, enabling customers to seamlessly lift and shift their SAN workloads to the cloud without having to change their provisioning and management model.
+
+These features include:
+
+Deploying, managing and hosting workloads on Azure with an end-to-end experience like on-premises SAN.
+Bulk provisioning of block storage that can achieve massive scale up to millions of IOPS, double-digit GB/s throughput and low single-digit millisecond latencies while serving a plethora of workloads in an organization.
+Simplifying volume management through grouping and policy enforcement with an on-premises SAN experience.
+Achieving higher resiliency and minimizing downtime with zone-redundant storage, thus ensuring organizations high levels of availability when running business-critical apps on Azure.
+Learn more about Azure Premium SSD and Azure Elastic SAN.
+
+​​​​​​2.3.4. ​​​​​​​New Azure Monitor capabilities and features
+New Azure Monitor capabilities are designed to help customers further modernize their environments and optimize costs. These updates include:
+
+Predictive autoscale for Virtual Machine Scale Sets, now generally available.
+
+Users can leverage machine learning to manage and scale Azure Virtual Machine Scale Sets resources by forecasting the overall CPU load and ensuring that scale-out occurs in time to meet the demand.
+Azure Monitor Log updates to enable cost optimization, now generally available
+
+With Azure Monitor basic logs and data archive, users can ingest logs at a fifth of current ingestion costs and archive them for up to seven years. ​​​​​​​
+Azure Monitor Agent updates
+
+Azure Monitor Agent (AMA) provides a secure, cost-effective and simplified way to collect telemetry data from a user’s resources. It replaces legacy Log Analytics agents (also called MMA and OMS agents).
+
+An agent migration tool, now generally available, provides guidance and automation to support migration from the legacy Log Analytics agents to AMA.
+AMA support for Windows 10 and 11 devices is also generally available using the Windows client installer.
+Recommended alert rules, now in preview
+
+With Azure Kubernetes Service (AKS) and Log Analytics workspace, users will be able to quickly set up Azure Monitor alerts with new alert rule recommendations.
+Learn more about this update.
+
+2.3.5. Nutanix Cloud Clusters now generally available on Azure
+Nutanix Cloud Clusters on Azure, now generally available, simplifies and accelerates the customer journey to the cloud. Nutanix customers can migrate or extend their workloads to Azure, without modification or retooling.
+
+With Nutanix Cloud Clusters on Azure, customers can leverage their existing Nutanix skills and tools, add Azure services such as security, identity and analytics and gain cost efficiencies with license portability that enables them to use their existing licenses for Azure deployment.
+
+And, to further support a hybrid model, customers can also seamlessly extend Azure data services to their on-premises Azure Arc-enabled Kubernetes clusters using the Nutanix platform.
+
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+2.3.6. New features in Azure Networking
+New features for Azure Networking are now generally available and include:
+
+Azure Domain Name System (DNS) private resolver is a cloud-native, highly available and DevOps-friendly service. It provides a simple, zero-maintenance, reliable and secure DNS service to resolve and conditionally forward DNS queries from a virtual network, on-premises and to other target DNS servers without the need to create and manage a custom DNS solution. This will make customers’ DNS infrastructure work securely, privately and seamlessly across on-premises networks and enable key hybrid networking scenarios.
+Azure public multi-access edge compute (MEC) allows enterprises and developers to deliver innovative, high-performance, low-latency apps using operators’ public 5G networks. Azure public MEC is available with AT&T in Atlanta and Dallas. This offers customers the unique ability to analyze data closer to where it is being captured for proactive actions and decisions.
+Learn more about these updates.
+
+​​​​​​2.3.7. New Windows Server benefits and features
+Microsoft is expanding Azure Hybrid Benefit, a program that enables Software Assurance (SA) customers to reduce costs. With the new Azure Hybrid Benefit for Azure Kubernetes Service (AKS) and Azure Stack HCI, customers can:
+
+Run AKS on Windows Server and Azure Stack HCI at no additional cost with Windows SA and Cloud Solution Provider (CSP) subscriptions. With this, customers can deploy and manage containerized Linux and Windows apps from cloud to edge with a consistent, managed Kubernetes service.
+Get Azure Stack HCI at no additional cost with Windows Server Datacenter SA. Customers can modernize their existing datacenter and edge infrastructure to run their virtual machine (VM) and container-based workloads on modern infrastructure with industry-leading price-performance and built-in connectivity to Azure.
+Windows admin center, now generally available in the Azure portal, allows customers to configure, troubleshoot and perform maintenance tasks with the familiar UI and functionality of the Windows admin center UI, without leaving the Azure portal.
+
+Learn more about this update.
+
+​​​​​​​2.3.8. Azure savings plan for compute offers a new price offering
+Microsoft is launching a new price offering, Azure savings plan for compute. This new offer, generally available later in October, will allow customers to save across select compute services globally by committing to spend a fixed hourly amount (for example, $5/hour) for one or three years.
+
+As customers use select compute services around the world, their usage is covered by the plan at reduced prices, helping them get more value from their cloud budget. During times when their usage is above their hourly commitment, users will simply be billed at the regular pay-as-you-go prices. With savings automatically applying across compute usage globally, they’ll continue saving even as their usage needs change over time. This plan lets customers increase the value of their cloud budget, retain financial control and optimize costs amid increasing cloud spends to help them do more with less.
+
+Learn more about this update.
+
+2.4. Azure VMware Solution
+​​​​​​2.4.1. New features for Azure VMware Solution support availability, security
+Two new Azure VMware Solution features support higher availability and security for customers’ mission critical workloads and include:
+
+99.99% private cloud uptime: Stretched clusters for Azure VMware Solution, now in preview, will provide 99.99% uptime for mission-critical apps that require the highest availability. In times of Availability Zone failure, customers’ virtual machines (VMs) and apps automatically failover to an unaffected Availability Zone with no app impact, which does not require IT support.
+
+Customer Managed Keys (CMK): Now in preview, CMK will give customers maximum control over their encrypted vSAN data on Azure VMware Solution. With this feature, customers use Azure Key Vault to generate customer managed keys and to centralize and streamline the key management process, including:
+
+Revoking access any time and protecting customers’ data from within their private cloud.
+Rotating encryption key in Azure Key Vault per the customer’s compliance policies requirement.
+Full integration with Azure Monitor and Azure Log Analytics for complete audit logs and alerts.
+Learn more about this update.
+
+2.5. Developer Tools & DevOps
+2.5.1. Azure Kubernetes Fleet Manager simplifies cluster management and organization
+Distributed Kubernetes cluster management is complex and challenging. Azure Kubernetes Fleet Manager, a new service in preview, simplifies multi-cluster management by enabling centralized management of all clusters at scale. Customers can group any combination of Azure Kubernetes Service (AKS) clusters to simplify multi-cluster workflows like workload propagation and multi-cluster networking.
+
+When managing a Kubernetes fleet, users need a Kubernetes cluster to store configurations for placement policy and networking. Azure Kubernetes Fleet Manager creates a managed hub cluster to solve this issue. Azure Kubernetes Fleet Manager also allows users to set up load balancing for north-south traffic (flowing from the user into the cluster) for multiple endpoints deployed across member clusters.
+
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+2.5.2. Independent software vendors can now create one-click Kubernetes apps
+Kubernetes apps is an Azure Marketplace offer specialized for Kubernetes solutions from Microsoft’s independent software vendor (ISV) partners. ISV members of the marketplace can now create, publish and manage commercial Kubernetes offers in Azure Marketplace with billing models.
+
+Customers can browse the catalog of solutions specialized for Kubernetes platforms under Kubernetes apps offer in Azure Marketplace and select a solution for one-click deployment to Azure Kubernetes Service (AKS) with automated Azure billing. This feature, in preview, will be the first offering specialized for Kubernetes with automated deployment and billing in Azure Marketplace.
+
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+​​​​​​​2.5.3. New Azure Monitor features for app modernization and innovation
+Two new features have been introduced to help Azure Monitor customers modernize their cloud-native environments and support app innovations. These features, both in preview, include:
+
+Managed service for Prometheus, a new managed service, will deliver the best of the open-source ecosystem while automating complex tasks like scaling, high availability and long-term data retention. It can be used as a standalone within Azure Monitor or with Azure Monitor container insights and Azure Managed Grafana.
+Java profiling with Java Flight Recorder (JFR) will allow customers to collect data from a Java Virtual Machine and Java apps for troubleshooting performance issues. Customers can profile on-demand or automatically with configured CPU and memory triggers and can view and analyze recordings with their preferred tool.
+Learn more about this update.
+
+2.5.4. Microsoft Dev Box now in preview
+Rigid workstations often limit developer productivity. Getting set up with these resources requires support from admin teams and stretching them across hybrid workspaces can result in security vulnerabilities. Microsoft Dev Box, a new service introduced at Microsoft Build 2022, provides developers with self-service access to high-performance, cloud-based workstations preconfigured and ready-to-code for specific projects.
+
+Visual Studio images for Dev Box are now generally available on Azure Marketplace. These ready-to-use images ensure developers can be productive as soon as they create a Dev Box by leveraging commonly used Visual Studio functionalities as well as complimentary tools.
+
+Learn more about this update.
+
+​​​​​​2.5.5. Azure Deployment Environments now in preview
+Development and testing environments are critical for developers working on complex, modern apps that rely on a plethora of cloud services. Unfortunately, it can take days — if not weeks — to get access to these resources and, once they are deployed, organizations can struggle to ensure the resources run in a secure and compliant way.
+
+Azure Deployment Environments, now in preview, will enable developer teams to quickly spin up app infrastructure with project-based templates that establish consistency and best practices while maximizing security, compliance and cost-efficiency.
+
+Learn more about this update.
+
+​​​​​​​2.5.6. GitHub Advanced Security for Azure DevOps in preview
+GitHub Advanced Security for Azure DevOps provides a native app security solution within the Azure DevOps platform. New features, currently in private preview, will enable organizations to easily identify and fix exposed secrets and vulnerable open-source dependencies across the software life cycle. Advanced Security for Azure DevOps will include a powerful and accurate CodeQL code scanner to identify any code vulnerabilities or errors in code. These new features are seamlessly integrated within the developer workflow to help developers implement security earlier in the software development life cycle to find and fix security issues before they deploy software to production.
+
+Learn more about this update or download visual assets.
+
+2.5.7. Latest version of Visual Studio 2022 now generally available
+The latest version of Visual Studio 2022, v17.3, now generally available, includes new productivity features, a new toolkit for building Microsoft Teams apps, performance improvements for C++ development and tooling for .NET Multi-platform App UI (MAUI). This technology helps users build and ship .NET client apps to Android, iOS, macOS and Windows from a single codebase.
+
+Learn more about this update.
+
+​​​​​​2.5.8. Microsoft and Postman partner on Azure API Management
+Microsoft has signed an agreement with Postman to collaborate on product integration and co-marketing initiatives. This partnership aims to speed up API development, enabling developers to bring new innovations to market faster. The initial support includes capabilities to import the APIs from Azure API management into Postman and Azure-initiated export of APIs and API endpoint into the Postman collections.
+
+Learn more about this update.
+
+​​​​​​2.5.9. Azure Communication Services launching call automation
+Azure Communication Services is introducing call automation, a new set of APIs, in preview next month, which will help developers build server-based, intelligent calling workflows. This new feature will help developers steer and control Public Switched Telephone Network (PSTN) or VoIP calls within their apps.
+
+From daily appointment bookings and order updates to complex customer outreach for marketing and customer service, call automation with Azure Communication Services simplifies the delivery of personalized customer interactions.
+
+Learn more about this update.
+
+​​​​​​2.5.10. Service Bus explorer capabilities now generally available
+Service Bus explorer capabilities are now generally available in the Azure portal. Customers can now use the portal to facilitate data operations, including sending messages to a queue or topic in a Service Bus namespace, as well as receiving or peeking messages from a queue or a subscription.
+
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+2.5.11. Azure App Service updates
+New Azure App Service features allow users to modernize their workloads and innovate faster. These updates include:
+
+Large SKU options (64 GB/128 GB/256 GB) to support more demanding workloads with App Service Environment (ASE) v3. This will be generally available in November.
+A 14-day prior notice of planned platform maintenance in ASE v3 will be in preview in November. Customers will be able to choose a specific time window when platform maintenance occurs.
+Support for latest versions of .NET 7, Python 3.10 and 3.11, PHP 8.1, PHP 8.2 and Node 18 helps organizations run their most popular apps on Azure App Service, enabling faster time to market using the latest Azure Cloud capabilities. This will be generally available in November.
+Go language, natively supported on Azure App Service for the first time, is now in preview. Developers can now innovate faster using fully managed app platform services for cloud-centric web apps.
+Learn more about this update.
+
+2.5.12. Azure Managed Confidential Consortium Framework now in preview
+Azure Managed Confidential Consortium Framework, a new Azure service that offers execution of the Confidential Consortium Framework (CCF) open-source software development kit (SDK) as a managed service, is now in preview. This will eliminate the need for developers to stand up, maintain and manage their own infrastructure to support CCF-based services.
+
+CCF is an open-source framework for building highly available, stateful services that require decentralized trust with centralized compute for ease of use and performance.
+
+The Azure Managed Confidential Consortium Framework allows developers to build, deploy and manage multi-party apps on a secured and governed network. For ease of use, integrity and performance, these networks utilize centralized confidential computing capabilities within hardware-based trusted execution environments (TEEs).
+
+Learn more about this update.
+
+​​​​​​​2.5.13. Microsoft creating program to connect job seekers with employment opportunities
+In recognizing that there is a substantial talent gap in the global market that is hindering many businesses from achieving their growth goals, Microsoft plans to help fill the void.
+
+Microsoft is creating a new employability program that will seek to connect job seekers (graduating students, career changers and job changers) with employment opportunities within the Microsoft partner and customer ecosystem. Job seekers will have the opportunity to round out their skills through self-paced training on Microsoft Learn or acquire skills at schools with the Microsoft Learn for Educators program, through workforce development partners or instructor-led training courses delivered by Microsoft Learning Partners.
+
+Job seekers will have the opportunity to stand out to employers by displaying their learning proficiency on LinkedIn and will be accepted into a private LinkedIn group where employers will be able to engage with potential hires.
+
+Learn more about this update.
+
+Two men standing working on their computers
+3. Business Applications 3.1. Business Applications
+3.1.1. CBRE partners with Microsoft to leverage Industrial metaverse technology to improve client outcomes
+Microsoft’s Industrial Metaverse technology helps unify the digital and physical through AI, mixed reality and machine learning. Commercial real estate and investment firm CBRE Group, Inc. teamed up with Microsoft to deliver an enhanced facility management platform that enables retailers and other clients with large, distributed operations to improve connectivity between assets and technicians, optimize operations and realize cost efficiencies.
+
+Built on Microsoft Dynamics 365 Field Service, CBRE’s platform demonstrates how it will deliver unique, actionable insights to facility operations by utilizing a mix of physical and digital.
+
+Learn more about this update.
+
+​​​​​​​3.1.2. Microsoft Teams customers to receive access to Business Central data at no extra cost
+Starting in November, Microsoft Teams users will have access to Business Central data from within the collaboration app, regardless of whether they have a Dynamics 365 license. Admins will be able to set permission and access rules to restrict access to business records. Business Central users can invite people from across the organization to connect and collaborate in the flow of work, no matter where they work.
+
+With Business Central embedded in Teams, people can collaborate on critical initiatives and projects directly where they connect. Small- and medium-sized businesses (SMBs) can now ensure that all team members are empowered with Context IQ, which provides access to the right information and insights contextually, wherever and however they work.
+
+Learn more about this update.
+
+​​​​​​​3.1.3. Auto-summarize conversations in Teams-based collaboration in Dynamics 365 Customer Service
+Users can automate an AI-generated conversation summary in Dynamics 365 Customer Service when an agent has a customer conversation and wants to collaborate with other teammates using embedded Microsoft Teams. If the agent is not an original member of the chat, they can get up to speed quickly by opting into the customer’s chat history to get visibility and context to conversations. This is especially helpful in scenarios where a customer service agent has a case transferred to them.
+
+This accelerates issue resolution, with an auto-generated, structured conversation summary that shares context, including the summary of the customer issue and the result of the attempted resolution. The feature is in preview as part of Dynamics 365 Customer Service and expected to be generally available in October 2022.
+
+Learn more about this update.
+
+​​​​​​​3.1.4. ​​​​​​​Teams chat embedded within Dynamics 365
+With embedded Microsoft Teams chat, users can collaborate with stakeholders directly from within Dynamics 365. This allows users to use Dynamics 365 data as an organizing layer for Teams collaboration activity and to link chats to Dynamics 365 records, including sales opportunities and service cases, for convenient access for all participants. The feature, now in preview as part of Dynamics 365 Customer Service, is expected to be generally available in October 2022.
+
+Agents who use Dynamics 365 Customer Service can easily collaborate with anyone within their organization, such as agents from other departments, supervisors, customer service peers or support experts, over Teams to resolve customer issues without leaving the case or conversation. Chats over Teams will be linked directly to Customer Service records, enabling a contextual experience.
+
+Learn more about this update.
+
+​​​​​​​3.1.5. Unlimited conversation intelligence for Dynamics 365 Sales Enterprise and Microsoft Viva Sales
+Conversation intelligence is now available at no additional cost for both Microsoft Dynamics 365 Sales Enterprise and the newly released Microsoft Viva Sales. Conversation intelligence gives sellers the power of insights while helping them be more productive.
+
+In addition, several updates for sales conversation intelligence are coming to preview early next year and include:
+
+Real-time guidance for sellers, like product and pricing details and competitive intelligence, will be surfaced as they talk with customers on a call or in a Microsoft Teams meeting.
+Recommended resources, like talking points, important mentions, customer sentiment and conversation style, will help provide deeper understanding of what comprises winning sales strategies and how sellers’ behavior directly correlates to business results.
+Email intelligence for sellers will suggest prompts for updates needed in the customer relationship management system.
+Learn more about this update.
+
+​​​​​​3.1.6. Microsoft Dynamics 365 announcing new supply chain management expert certification
+The new Microsoft Certified: Dynamics 365 Supply Chain Management Functional Consultant Expert certification is now available. This certification is ideal for functional consultants with advanced skills, senior or principal functional consultants for Microsoft partners and expert IT professionals, developers or information workers. The certification aligns closely with real-world roles in the field today and gives functional consultants who manage the supply chain an upward certification path.
+
+To earn this certification, candidates must pass Exam MB-335: Microsoft Dynamics 365 Supply Chain Management Functional Consultant Expert. Prerequisites for the certification also include passing Exam MB-330: Microsoft Dynamics 365 Supply Chain Management Functional Consultant.
+
+Learn more about this update.
+
+A woman sits at a desk with a laptop
+4. Edge 4.1. Edge
+4.1.1. Introducing Microsoft Edge Workspaces
+Microsoft continues to invest in distinct experiences that make the workday easier by announcing Microsoft Edge Workspaces. Now in preview, Microsoft Edge Workspaces is a shared set of browser tabs that will allow groups to view the same websites and latest working files in one place. For example, let’s say a new team member is being brought on to an existing project. Instead of overwhelming them with links and files over email, the team can share one link to their Microsoft Edge Workspaces, which has all their relevant files and links open as browser tabs. As the team works together, tabs are updated in real-time, so everyone stays on the same page.
+
+IT professionals and their organizations can join the preview.
+
+Learn more about this update or download visual assets.
+
+4.1.2. Microsoft Edge adds security features
+Two new security features for Microsoft Edge build on its protection against phishing and malware on Windows. These features help reduce the surface area for cyberattacks, ensuring a safer browser experience. These new features, now generally available, include:
+
+Website typo protection: It’s easy to make mistakes when writing out a website URL. Squatters prey on these small errors. Website typo protection protects users from accidentally navigating to online fraud sites after misspelling the website address by suggesting the website that the user intended.
+Enhanced security mode: This opt-in security feature helps reduce the risk of an attack by automatically applying more conservative settings on unfamiliar websites. It mitigates memory-related vulnerabilities by disabling just-in-time JavaScript compilation that could be used to attack devices. Users and IT admins can set the level of security based on frequency of visits to a website or for specific websites. For example, the “basic” mode applies security mitigations to less-visited sites while allowing sites that are visited often to function as expected.
+Learn more about this update.
+
+4.1.3. Accessibility features for Microsoft Edge improve inclusivity
+New built-in accessibility features for Microsoft Edge help make the web more accessible for everyone. As more than 1 billion people identify as having some form of disability, these features help users browse the web in an intuitive, inclusive way.
+
+Accessibility features, now generally available, include:
+
+Live captions that are displayed in a live caption window when media, such as a podcast or video, plays in Microsoft Edge.
+Instant answers that provide a suggested result when users type a person, place or thing in the Microsoft Edge address bar. For example, searching “Seattle weather” returns an instant answer with the current temperature in Seattle. Instant answers can also be read by screen readers.
+An enhanced Narrator experience provides more consistent navigation when browsing the web by providing contextual information about field and button names. Users can also quickly update form fields, making it easier to type in their name, address and other information into form fields.
+Page colors, now in preview, can be changed in Microsoft Edge as desired to improve readability and color contrast.
+
+Learn more about this update.
+
+A woman works at a desk on her laptop
+5. Industry Cloud 5.1. Industry Cloud
+​​​​​​​5.1.1. New capabilities for Microsoft Cloud for Sustainability
+Microsoft Cloud for Sustainability is growing, with the introduction of new capabilities to Microsoft Sustainability Manager, which empowers organizations to easily record, report and reduce their environmental impact. New features, now generally available, include an extended data model with increased Scope 3 emissions calculation methodologies for priority categories as companies track emissions data to provide clear and transparent reporting.
+
+The Emissions Impact Dashboard for Microsoft 365 is also now generally available. This dashboard allows customers to calculate emissions associated with an organization’s usage of Microsoft Teams, Word, Excel, PowerPoint, Exchange Online, SharePoint Online and OneDrive for Business. It also allows organizations to calculate emissions savings by moving workloads to the cloud. To improve reliability for environmental claims and credits, Microsoft is introducing the Environmental Credit Service, a managed service to create a trusted system of record.
+
+Learn more about this update.
+
+5.1.2. New capabilities for Microsoft Cloud for Healthcare
+Employee shortages have a ripple effect that can result in physicians limiting time with patients and making it difficult for patients to get both routine preventive care and emergency care. Microsoft Cloud for Healthcare helps address these issues by simplifying complex workflow management and automating tasks, thereby improving clinician experiences and ultimately leading to better patient outcomes.
+
+New capabilities in Cloud for Healthcare that will enable consumer-centric operating models that ease the burden on providers and help facilitate proactive healthcare are now in preview and include:
+
+Improved Patient indicators visualizations in the Unified Patient view.
+New out-of-the-box patient outreach campaigns built into Patient Journey templates.
+An updated set of standards in the Provider Data Model, commonly used by customers and partners, to build or extend their own healthcare apps leveraging Cloud for Healthcare.
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+A man leans against a computer desk holding a glass
+6. Microsoft 365 6.1. Microsoft Teams
+6.1.1. Mesh avatars in Microsoft Teams in private preview
+Mesh avatars are now available for Microsoft Teams meetings in private preview. Mesh avatars will offer flexibility and choice in how users show up in a Teams meeting with a customized, animated version of themselves without turning on their camera.
+
+Using the Avatars app in the Microsoft Teams App Store, users will be able to design up to three unique avatars using the hundreds of customization options – from physical attributes to accessories and more.
+
+Once the personalized avatar is created, it can be used in a Teams meeting by selecting the option from the “Effects and Avatars” menu prior to joining the meeting. During a meeting, users will be able to choose from a wide range of gestures to react to topics.
+
+Mesh avatars are available in the standard Teams meeting experience for private preview customers. Organizations interested in trying out avatars can sign up for updates on the Teams website if they are not already part of the Teams Technical Access Program.
+
+Learn more about this update.
+
+​​​​​​​6.1.2. Introducing Microsoft Teams Premium
+The new Microsoft Teams Premium add-on will be available in preview in December. Built on the familiar, all-in-one Teams collaboration experience, Teams Premium will make every meeting – from 1:1s and virtual appointments to town halls and webinars – more personalized, intelligent and secure.
+
+Teams Premium will bring the Teams meeting innovation into one offering and will make meetings more personalized with:
+
+Meeting guides that will help users pick the right meeting experience. Because guides are easily customized and managed by IT, users can select a guide – like a client call, a brainstorm meeting or Help Desk support – and the options will already be set, reducing the time and thought process around getting the meeting right.
+The ability to brand the meeting experience with custom logos and backgrounds for the Teams lobby, custom backgrounds at an organizational level and custom scenes for Together mode to infuse the company’s brand into virtual interactions.
+Teams Premium will be more intelligent with:
+
+An intelligent recap that will give users personalized highlights from Teams meetings to help discover information that matters most. Users can miss a meeting, but not miss out.
+AI-generated tasks that are automatically assigned from meetings, so action items are not missed. It’s like having a virtual assistant attend every meeting.
+Intelligent playback with automatically generated chapters to easily navigate a Teams meeting recording and help understand the content of a meeting discussion.
+Personalized insights in meeting recordings that will call out important moments in the meeting, such as when a user’s name was mentioned, a screen was shared and when people have joined and left.
+Intelligent search will make searching the transcripts easier with suggested speakers personalized for the user so they can quickly refer to a specific point for reference.
+Live Translations for captions will deliver AI-powered real-time translations for 40 spoken languages, so users can read live captions in their own language. This capability will help break down language barriers to help create more inclusive meetings.
+Teams Premium will be more secure with:
+
+Advanced meeting protection that will make it easy to safeguard confidential meetings, such as board meetings, financial discussions or an undisclosed product launch review. With new meeting options, like watermarking to deter leaks and limiting who can record, users get additional protections to help keep the discussion private. Microsoft 365 E5 customers who have the most advanced security requirements will be able to leverage existing Microsoft Purview Information Protection sensitivity labels to automatically apply relevant meeting protection options.
+Teams Premium will extend the familiar experience of Teams to help users engage more deeply with customers by offering:
+
+Advanced webinars that will help users deepen connections and engagement with internal and external audiences. In addition to the basic webinar functionality available in Office 365 and Microsoft 365, advanced webinars in Teams Premium will include a registration waitlist and manual approvals, automated reminder emails, a virtual green room for hosts and presenters and the ability to manage what attendees see.
+Advanced virtual appointments designed for business-to-consumer (B2C) engagements. In addition to the basic virtual appointment value in Microsoft 365 plans (access to the Virtual Appointment app, the ability to join an appointment through a mobile web browser and schedule through Microsoft Teams Calendar or Microsoft Bookings), advanced virtual appointments in Teams Premium will help users manage the end-to-end appointment experience, including pre-appointment SMS reminders, a branded lobby experience and post-appointment follow-ups. Organizations will also get both scheduled and on-demand appointments, a simplified view of all virtual appointments to track customers joining and wait times and pre-appointment chat capabilities to communicate with customers and analytics.
+Teams Premium features will begin to roll out in December 2022 as a part of Teams Premium preview, with general availability of Teams Premium in February 2023. Availability of new AI capabilities, such as intelligent meetings, will begin rolling out in the first half of 2023.
+
+Learn more about this update or download visual assets.
+
+​​​​​​6.1.3. New Teams meetings features increase engagement, interactivity
+Several new features for Microsoft Teams meetings increase the engagement and interactivity levels for users and include:
+
+Cameo, a PowerPoint experience that seamlessly integrates the Teams camera feed into the PowerPoint Live presentation, letting users customize how they want to appear on slides, with layout recommendations for optimal viewing. This feature is generally available.
+Excel Live allows teams to collaboratively edit Excel workbooks in real-time, within the meeting window, on any device, including Android and iOS phones and tablets. Sheet Views allows everyone co-editing the workbook to sort or filter however they need, without disrupting anyone else’s view. This feature will be rolling out starting in October and will be generally available by the end of the year.
+Together mode makes meeting participants feel more like they’re together in the same room during a virtual meeting. With the latest innovations in Together mode, meeting organizers and presenters will be able to assign seats to meeting participants in the Together mode view (in preview) and select Together mode for everyone, so all meeting participants will have the same view (now generally available).
+Learn more about this update, see the Teams Premium entry to learn about additional meeting innovations, or download visual assets.
+
+6.1.4. Microsoft Teams Phone Mobile now generally available
+​Microsoft Teams Phone Mobile, previously known as Operator Connect Mobile, is an enterprise-grade mobile calling experience offered in partnership with some of the world’s most innovative telecom operators. It is now generally available.
+
+With Teams Phone Mobile, Microsoft Teams is integrated with a user’s mobile device native dialer, meaning users can use their mobile phone the way they are accustomed to while the organization can enable business calling features and policies on these mobile devices. Calls seamlessly move across networks and devices without any interruptions and can be converted from mobile networks to internet-based video calls in Teams, enabling rich communication and collaboration.
+
+No matter where a user chooses to work, their calls, voicemail and transcriptions go with them, while still adhering to their enterprise’s compliance and privacy requirements. Teams Phone Mobile is now available with Rogers in Canada, the first operator in the world to support Teams Phone Mobile, and Telia in Sweden. Verizon, Deutsche Telekom, BT and Swisscom will launch soon, with more operators joining the program.
+
+Learn more about this update.
+
+​​​​​​​6.1.5. New Microsoft Teams chat and collaboration features
+New chat and collaboration features coming to Microsoft Teams include:
+
+Video clips: Short, lightweight, rich video clips that deliver a more personal touch and strengthen connections. Simply record, send, view and reply from desktop or mobile. The recipient of the video clip can play the video in their chat and reply with a chat message or a video clip of their own. Video clips is now generally available.
+Expanded reactions: Users can express feedback more creatively with over 800 Teams emojis. With Expanded reactions, users will be able to easily communicate their status with reactions like “reviewed” or “on hold.” Expanded reactions will be generally available in November.
+Suggested replies: Suggested replies, currently available for one-on-one chats, will also appear in group chats. Suggested replies use machine learning to generate responses most relevant to the group conversation. Instead of typing out a routine response to incoming messages, users can simply click one of the three responses while staying productive in their workflow. Suggested replies in group chats will be generally available in October.
+Schedule send: Like delaying the delivery of emails in Outlook, schedule send enables users to manually select the future date and time that they would like a chat message to be delivered. Schedule send is now generally available.
+Delete chat: Using the delete chat functionality, users will be able to easily remove themselves from one-on-one or group chat conversations they no longer wish to participate in, without impacting other participants in the same chat conversation. Delete chat will be generally available in November.
+With mention @everyone for group chats, a single notification will be sent to all users in a group, removing the hassle of entering each person’s name one by one to notify an entire group. This ensures senders their message is sent to the full chat audience and helps recipients prioritize messages more efficiently. Mention @everyone is coming to Teams by the end of the year.
+Teams chat is continuing to expand its productivity set of features that use AI models to learn from past collaborations. Teams chat will be introducing zero-state people recommendations, which will suggest people to initiate chat conversations based on previous collaborations. Zero-state people recommendations is coming to Teams by the end of the year.
+Learn more about this update or download visual assets.
+
+​​​​​​​6.1.6. Improved channel experience coming soon to Microsoft Teams
+Microsoft is improving the design of the Teams channels experience to feel both familiar and modern. The channels experience will be more intuitive and engaging, enabling users to easily focus on topics and conversations that matter most, while staying in the flow of their work.
+
+With the compose box at the top of the page, conversations will be easier to find, engage and catch up on. Pinned posts will make it easy for everyone to know what is important in the channel. Like Teams chat, users will be able to pop out the conversation, engage directly and keep an eye on it, while focusing on other areas in the channel. Finally, a streamlined info pane will improve productivity, making it easy for a new team member to quickly ramp up and for all members to stay up to speed.
+
+Channels will also be customizable, with the channel header matching the organization’s brand, making it more personal and reflective of how teams collaborate.
+
+Microsoft is also introducing multiple post types, giving users efficient ways to engage and be more expressive with an audience, such as announcements used to highlight a milestone or a video clip to recognize a team’s accomplishment.
+
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+​​​​​​6.1.7. Microsoft Teams meetings available natively on certified Cisco meeting devices
+For the first time, Microsoft Teams meetings will be available natively across certified Cisco meeting devices, enabling customers to configure Teams as the default meeting experience.
+
+Initially, six of Cisco’s most popular meeting devices and three peripherals will be certified for Teams meetings, with more to come. The first wave of devices, expected to be certified by early 2023, will include the Cisco Board Pro 55-inch and 75-inch, the Cisco Room Bar and the Cisco Room Kit Pro, which span small-to-large meeting rooms spaces. The first peripheral – the Cisco Desk Camera 4K – is an intelligent USB webcam and will be available by the end of October. While the default user experience on these devices will be Microsoft Teams Rooms, the devices will continue to support joining WebEx meetings.
+
+​All certified Cisco devices will be manageable in the new Teams Rooms Pro Management Portal. Cisco will also connect the devices to the Cisco Cloud Control Hub as an optional value-add through which Cisco provides its own device management experiences.
+
+Learn more about this update or download visual assets.
+
+6.1.8. Microsoft introduces new app, Microsoft Places
+Microsoft Places is a new workplace app to optimize spaces for hybrid work. As business decision makers consider redesigning physical workspaces to better accommodate hybrid work environments, technology will be needed to form the bridge across two historically different worlds – in-person and remote work. Microsoft Places will use intelligence to optimize where work happens in hybrid work: connecting virtual and physical spaces to drive increased connections, engagement and productivity while providing the holistic picture of hybrid work that’s missing today.
+
+The Microsoft Places app, coming soon in preview, will provide:
+
+A dashboard view of which days people on the team or collaboration network will be in the office.
+A presence that will indicate people’s physical location (in office, remote or mobile).
+The ability to see the workspaces other users have booked, so someone can book one nearby.
+Insights and guidance on commuting and passing time, plus the ability to automatically schedule travel time.
+Wayfinding and navigation help within the office location.
+A modernized conference room booking and technology to allow everyone to be a first-class participant.
+Insights and guidance on sentiment related to hybrid policies, so managers can implement best practices.
+Insights and guidance on space usage, so leaders can future-proof spaces and add flexibility into their real estate portfolio.
+Learn more about this update or download visual assets.
+
+​​​​​​​6.1.9. Microsoft Teams ecosystem grows with collaborative apps from customers and partners
+Top independent software vendor (ISV) partners continue to build collaborative apps for Teams. Recent additions to the Microsoft Teams App Store include:
+
+3M, whose Post-It® App in Teams allows users to digitize handwritten notes, is now available in the Teams App Store. The app supports the ways people like to collaborate, – from typed digital notes to written analog notes – during and following a meeting to enable asynchronous collaboration. With the app, handwritten/drawn Post-It® notes can be seamlessly translated onto a digital whiteboard using the camera of a laptop or a phone. Using machine learning, the app surfaces relevant documents, automatically groups content and includes relevant notes, all within the Teams meeting experience.
+SAP is leveraging Adaptive Card-based Microsoft Loop components to enable a collaborative ERP experience. Users can interact on key business processes and objects and engage on SAP data securely from within the SAP systems, starting with SAP S/4 HANA Cloud or from Teams and Outlook. This allows people to not lose any context and collaboration from any side – SAP or Microsoft – and accelerate decision-making across users’ organizations. This new feature is available to SAP S/4HANA customers through SAP’s early adopter program.
+iHeartRadio, the first music app on Teams, allows users to listen to music while working and share favorite stations with colleagues.
+Other ISV partners delivering innovation for their Teams apps include Workday, Workplace by Meta, Zendesk, SurveyMonkey, Thrive Global, ServiceNow, Priority Matrix and Zoho.
+
+Learn more about this update.
+
+​​​​​​6.1.10. Updates to Teams platform for developers
+Updates to Teams platform for developers include:
+
+Teams Live Share SDK: Teams Live Share SDK, which will allow developers to turn any app, when shared in a Teams meeting, into a real-time, multi-user collaborative experience. Now in preview, Teams Live Share SDK features will include:
+
+The addition of Canvas tools that will allow participants to mark-up meetings in real-time with virtual pens, markers and highlighters.
+The ability for developers to submit and publish their Teams Live Share-enabled apps worldwide.
+Extension of Teams apps to Outlook and Office: Using the Teams 2.0 JS SDK, announced at Microsoft Build 2022, developers can now build production apps that extend Teams Pages and Message Extensions across Teams, Outlook and Office using a single app and deployment model. These apps can run on Win32 and web versions of Microsoft 365, with a preview of app availability on Android-powered devices.
+
+Teams Toolkit in Visual Studio: Microsoft Teams Toolkit is now a part of Visual Studio, Microsoft’s flagship Integrated Development Environment (IDE). Developers can now use Visual Studio to build rich, collaborative apps that work in Teams and can also extend Teams app experiences into Outlook and Office.com.
+
+Learn more about this update.
+
+6.2. Microsoft Viva
+​​​​​​​6.2.1. Updates to Microsoft Viva Insights
+New features in Microsoft Viva Insights help employees, managers and leaders improve personal, team and organizational productivity and well-being.
+
+The updates, now generally available, include:
+
+Meeting effectiveness surveys, displayed during the end of select Teams meetings with five or more attendees, make it easy for meeting participants to give meeting feedback. Meeting organizers with Viva Insights subscriptions can see aggregated results in the Viva Insights app in Teams alongside research-backed recommendations to promote effective meeting habits.
+Schedule send suggestions from Viva Insights are automatically displayed in a Teams chat when a user composes a 1:1 chat outside of the recipient’s working hours to minimize work-related interruptions during personal time. With just one click, the user can schedule the chat message to be sent at the start of the recipient’s work hours.
+The new Focus mode experience helps people make progress on important projects during their focus time by dividing it into short bursts of productivity followed by short breaks. At the start of their pre-scheduled focus time, users with Viva Insights subscriptions will receive a Teams notification to enter Focus mode, with the option to set timers so they can work on a task for a specified interval of time, with breaks planned in between. Focus mode will also offer the option to click into a curated set of mindfulness exercises from Headspace to reset between focus intervals.
+Quiet Time settings allow users or IT admins to set quiet time to silence mobile notifications from Outlook and Teams outside of working hours. Users can adjust their quiet time settings any time in the Viva Insights app or Outlook mobile or Teams mobile. IT admins can also create organization-level policies to mute after-hours notifications and limit use of work apps outside of working hours.
+Learn more about this update.
+
+6.2.2. New features coming to Microsoft Viva Learning
+Several new features, now in private preview in Microsoft Viva Learning, include:
+
+Learning paths that will allow admins and knowledge managers to create sequenced groups of trainings and other learning resources and make them available to employees in their organization as a Learning Path that can be discovered, recommended and shared within Viva Learning. A learning path could be created around essentially any topic; for example, how to set up an in-store display for retail employees.
+Learning collections that will allow individual users to create personal collections of learning content aligned to their interests or learning goals. Anyone can create a learning collection and either keep it private or make it discoverable in Viva Learning.
+Permissions that will allow admins and knowledge managers to configure permission access to learning content and resources within their organization, ensuring users only see content they have access to consume.
+Viva Learning is also now more discoverable with the ability to view assigned learning directly from the Viva Connections dashboard and in the daily Viva email.
+
+New features in the Viva Learning mobile app include:
+
+A new Home page, now in private preview, will make it easy to see mandatory trainings along with personalized learning experiences for users.
+Notifications for assigned and recommended trainings.
+The ability to complete learning courses on the go within the app.
+The ability to search and filter through catalogues of connected learning providers.
+​Additionally, Viva Learning now offers deeper integration with SAP SuccessFactors, including single sign on (SSO), which lets users access SAP SuccessFactors hosted content without needing to sign in; in-app playback, which allows users to consume SAP SuccessFactors hosted content directly within the Viva Learning app; permissions inheritance, which allows Viva Learning to read user permissions from SAP SuccessFactors and apply those same access permissions within Viva Learning; and learning path inheritance, which allows learning paths configured on SAP SuccessFactors to display within Viva Learning.
+
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+6.2.3. Viva Engage Storyline feature now generally available
+Microsoft Viva Engage provides organizations ways to create social connections between leaders and employees and within communities of interest inside the company.
+
+Now, anyone inside the company can create rich posts that include links, files, photos and videos, as a way of sharing updates and perspectives with others in the organization. These posts appear on a user’s Storyline, which others can view in Viva Engage, Outlook and the Viva Connections feed in Microsoft Teams. Storyline is now generally available.
+
+Stories, currently in preview, will provide an even richer way to share on the Storyline, letting users create short videos or photo collections in a familiar experience. Storyline and Stories help to strengthen personal connections between teammates and colleagues in a time when teams frequently work across various locations and time zones.
+
+Learn more about this update.
+
+6.2.4. New first- and third-party integrations coming for Viva Goals
+Microsoft recently launched Microsoft Viva Goals to help organizations align employees’ work to business outcomes. This way organizations can help ensure their people are working on the top priorities that are going to have the biggest impact. And, at the same time, employees understand how their work is making a difference.
+
+New third-party integrations for Microsoft Viva Goals bring purpose and objectives and key results (OKRs) into the flow of work. New Slack and Google Sheets integrations are available today with additional integrations for Jira on-premises coming soon.
+
+With the Slack integration, users can receive notifications, reminders and conduct OKR check-ins directly from Slack. The Google Sheets data integration allows users to sync key results check-ins to Google Sheets cells for real-time updates of a user’s progress. The Jira on-premises integrations for Jira Software Server and Jira Data Center will allow for all updates on linked Jira user stories, projects or tickets to be automatically tracked in the progress for OKRs in Viva Goals.
+
+We are also releasing new integrations for first-party Microsoft tools. This includes enhanced Microsoft Teams integration for OKR activity notifications and personalized OKR guidance and new integrations with Azure DevOps, Azure Data Explorer, Power BI, Dynamics 365, Microsoft Planner and Microsoft Project.
+
+Learn more about this update.
+
+6.2.5. New ways to discover Viva Topics content in Microsoft 365
+Microsoft Viva Topics applies intelligence to automatically organize content across systems and identify experts within the organization to deliver just-in-time knowledge in the apps people use every day. New features in Viva Topics, now in preview, and new ways to discover knowledge in Microsoft 365 include:
+
+Viva Topics will leverage Context IQ to enable people to surface information intelligently and quickly from inside their organization while authoring Word, Excel and PowerPoint files.
+Microsoft Syntex Connectors to integrate Viva Topics with third-party services like ServiceNow and EdCast.
+Viva Topic cards will surface in the Outlook app for Windows, as well as in the Viva Connections dashboard, making it easier for people to access and follow their Viva Topics.
+Viva Topics will find relevant people, route questions and answers and automate answers in conjunction with Viva Engage.
+Topic creators will see the growing impact of the topics they have created through badge icons with numbers of views.
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+6.3. Microsoft 365
+​​​​​​​6.3.1. Microsoft Outlook for Mac now supports focused profiles
+Microsoft Outlook for Mac is announcing support for focused profiles and Apple’s focus filters. The focused profile will provide a distraction-free experience by letting people configure specific settings per an account profile within Outlook to better support hybrid work. These profiles will encompass associated accounts, notifications associated with these accounts, themes and appearance.
+
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+​​​​​​6.3.2. New features coming for Microsoft Project and Microsoft Planner
+New features coming to Microsoft Project, specifically Project for the web and Microsoft Planner, will enable teams to track project goals, keep tasks in one place, manage projects agilely, balance team workloads, see changes to a task, manage task relationships better and scale the number of tasks in a project plan. These new features include:
+
+The seamless connection of both Planner and Project to Viva Goals will enable users to align their work to their organization’s objectives and key results (OKRs) while providing visibility to stakeholders on overall progress. In addition, teams will be able to set Goals in Project and track their team’s progress at the project level.
+Users will be able to review their Project tasks along with all their other tasks in the Assigned to Me list, which is included in the Tasks in Teams, Planner and ToDo apps.
+Project will support agility by enabling users to plan, prioritize and schedule the backlog of tasks into time-boxed blocks of Sprints.
+The new People view in Project will give managers quick visibility into the allocation of the work across the team and allows for easy task reassignment to balance the workload.
+Task history in Project will give teams more visibility to the changes impacting their projects.
+Advanced dependencies in Project will allow for better management of tasks’ relationships by adding in start-finish, start-start, finish-finish and lead and lag.
+Task limits in Project for the web will expand to 1,000.
+Viva Goals, Goals in Project, Assigned to Me, Task history, Advanced dependencies and Task limits will be available in the first few months of 2023. Sprints and People view will be generally available by the end of this year.
+
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+​​​​​​6.3.3. Microsoft updates Outlook with new tools for hybrid work
+Outlook is adding new features to help people stay connected and organized in hybrid work settings.
+
+The new working hours and location feature will allow users to organize their week to let teammates know what hours they’ll be available and where they’ll be working, so they can plan meetings better. Additionally, if a sudden change comes up during their day people have the flexibility to easily change their location for only that day from Microsoft Teams, Outlook desktop or Teams mobile without impacting the rest of their week.
+
+Meeting recap, now available in Outlook, allows employees to easily find information about a meeting and access the recording directly from the calendar event.
+
+To accommodate people across multiple time zones and to respect employees’ off-hours and vacations, Outlook and Teams are adding the ability to schedule a message to be sent at a later time and date. Outlook will add message reactions to the email platform, so employees can acknowledge and react to business emails the same way they can react to messages on Teams or on social platforms.
+
+Editor leveraging Context IQ allows email to surface relevant people and files in Outlook on the web. By simply using @mentions, Editor using Context IQ will surface relevant people and files based on the context typed in an email. Context IQ is a new set of capabilities from Microsoft that intelligently connects people with the information they need, where and when they need it. It works in the background to connect content across different Microsoft 365 apps.
+
+​​​​​​​These features will be generally available by the end of the year.
+
+Learn more about this update or download visual assets.
+
+6.3.4. New features make it easier to create and view video content in Microsoft 365
+From meeting recordings to corporate communications and how-to videos, video content in Microsoft 365 is an increasingly popular way to keep hybrid and remote teams connected, informed and aligned. Microsoft Stream, built on SharePoint, makes videos just as easy to work with and share as documents. In addition, IT admins can control the compliance policies, retention and permissions for video and meeting recordings just like they do for other files in Microsoft 365.
+
+Improved screen and webcam recording in Stream, with new options including background blur, inking, text and effects are now generally available. Additionally, recordings for Teams meetings are now available in the Stream mobile app. Stream will also power new meeting recording playback capabilities including:
+
+Personalized timeline markers which only the user can see. These markers show where the user joined or left the meeting, or when their name was mentioned.
+Auto-generated chapters that let a user jump to the precise moments that matter most.
+Intelligent search that displays personalized suggestions for keywords and speakers to quickly get to a specific point in the recording.
+Learn more about this update.
+
+​​​​​​6.3.5. Introducing Microsoft Syntex
+Microsoft is unveiling Microsoft Syntex, a new set of content apps and services that use AI to index and organize large quantities of unstructured content so it can be easily searched and analyzed. Syntex can also automate content-based workflows, such as contract processing and e-signature. It integrates Microsoft Search capabilities to make it easy for people to navigate and discover content. Users can use the advanced viewer to add secure annotations and redactions to any file, as well as build new content, singly or at scale and integrate Syntex eSignature into business processes.
+
+Other Syntex features include:
+
+Management and protection of content across the full life cycle, with backup, archiving, analytics and advanced management to help shape content delivery to the organization and beyond.
+Business app integrations to bring Microsoft 365 content to line-of-business systems like Dynamics 365.
+Containers that enable developers to store critical content in a managed container with expanded capacity and license flexibility. The Content Lake feature allows users to bring huge datasets into Azure Synapse for additional data analytics and modeling.
+Scenario accelerators like contract management and accounts payable.
+Syntex features are beginning to roll out now and will continue to roll out through early 2023.
+
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+​​​​​​6.3.6. Microsoft Editor brings new AI capabilities to Microsoft 365
+Microsoft Editor is continuing to bring enhanced intelligent capabilities to Microsoft 365 experiences, including these features in preview:
+
+Tone suggestion will help users make thoughtful decisions about the way a message is delivered in emails, chats and documents.
+Summarization in Microsoft Editor will utilize intelligence to populate, with the click of a button, a short and fluent summary of a longer text document that helps readers consume relevant information faster.
+Conciseness in Word for the web will utilize intelligence to identify wordy or run-on sentences and recommend an alternate version of the sentence to be clearer and more concise.
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+​​​​​​6.3.7. Microsoft Editor using Context IQ preview begins rolling out
+​With Microsoft Editor using Context IQ, users receive in-context suggestions while typing. While composing a message in Outlook on the web or writing in Word for the web, users can type the “@” key to invoke Editor leveraging Context IQ. A list of items (people, files, etc.) will surface for users depending on the context of the text in their message.
+
+Continuing to type will search Microsoft 365 for relevant content. Selecting an item with the cursor or hitting “enter” will insert the item into the message. Results shown in this list will be sourced from the context of the current message, what is being typed, who is involved and other variables using intelligence. The preview of Editor using Context IQ is starting to roll out and will be generally available in the coming months.
+
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+​​​​​​6.3.8. Personal toolbar can intelligently populate personalized commands
+Personal toolbar, now in preview, is a new feature in Word, Excel and PowerPoint that will utilize intelligence that is based on the commands used the most to provide a simple but powerful experience personalized to the user. With personal toolbar, users will save time by having their most frequently used commands available and accessible as needed, eliminating the need to search and click through tabs.
+
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+​​​​​​6.3.9. Microsoft Loop app in private preview
+The Microsoft Loop app, in private preview, will help teams to think, plan and create together. Customers can use the Loop app to work on projects collaboratively. The Loop app features workspaces, pages and components that sync across Microsoft 365. Microsoft will be working with customers in private preview to incorporate their feedback as it continues developing the app.
+
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+6.3.10. Updates to Microsoft Loop components
+Microsoft Loop components are pieces of content that allow users to collaborate in the flow of work – in Microsoft Teams chats and meetings, emails or documents. Microsoft is expanding Loop components to additional places across Microsoft 365 and is bringing more component types to ensure users can create and work together and will include:
+
+Inserting a poll, checklist or task list component into a Word for the web document under the Insert menu or with Editor using Context IQ. Users will simply type the “@” sign and based on the context of what is typed, Editor leveraging Context IQ surfaces the most relevant content – such as inserting a poll, checklist or task list component type. This update will be in private preview by the end of the year.
+Copying an existing Loop component and pasting it into Whiteboard in Teams, web and desktop. Like all Loop components, changes made to a Loop component in Whiteboard will sync across all the places the component lives. This update will be generally available by the end of the year.
+The Polls component type powered by Microsoft Forms will enable users to create surveys, quizzes and word clouds that stay in sync across Outlook on the web and Word for the web. This update will be in private preview by the end of the year.
+Q&A, a new Loop component type that will enable users to collect answers to questions in real-time. Q&A is preview in Outlook on the web and will be generally available in November.
+New security for Loop components will include:
+
+Sensitivity labels that will enable users to assign a level of security for their Loop components to help ensure that sensitive information isn’t mishandled. For instance, when a Loop component is created, people can change the label from “General” to “Confidential” to encrypt the component, restrict who has access or raise awareness of sensitive data being handled. Admins also have the option to include a watermark on different labels making the security level even clearer.
+Data Loss Prevention (DLP) for Loop components is like DLP in apps, such as Word, Excel and PowerPoint, where admins will be able to set content and keywords to automatically trigger a banner on Loop components. These banners raise awareness about potentially sensitive data in a component.
+Both sensitivity labels and Data Loss Prevention for Loop components will be generally available in Teams chat by the end of the year.
+
+Learn more about this update.
+
+6.3.11. Introducing the new Microsoft 365 app
+Microsoft is introducing a new Microsoft 365 app for web, Windows and mobile, the home for the favorite tools and content across Microsoft 365 for commercial and consumer users.
+
+The app, which is an evolution of the work started with the Office app, showcases the value of Microsoft 365, all in one place. It not only makes it simple to get started, but it also harnesses the intelligence generated from within the Microsoft 365 solution in a way that makes work easier.
+
+As before with the Office app, the new Microsoft 365 app will provide innovative experiences to:
+
+Create new documents from a variety of apps or use predesigned templates, including ones featuring an organization’s branding.
+Access files and content created and shared by the user, no matter where it is stored.
+Discover, launch and pin all apps and tools.
+Get recommendations on work that likely needs attention based on meetings, assigned tasks and document activity.
+Perform common quick actions on content without switching to another app.
+There are also several new features that will enhance the experience, including:
+
+Feed: A new way to keep up with work by showcasing shared files from the people users work with and trending content in a bite-sized card format.
+Apps module: A redesigned interface to access any Microsoft 365 app and related third-party apps. The apps module is also now available on mobile for the first time.
+Tagging: A new, intuitive way for users to organize their work independent of where files are stored.
+The Microsoft 365 app will begin rolling out starting next month.
+
+Learn more about this update or download visual assets.
+
+6.3.12. Microsoft Graph Data Connect enables developers to access Microsoft 365 data in Azure Synapse Analytics
+Developers and data engineers can gain comprehensive access to decades’ worth of their organization’s untapped Microsoft 365 data that comes ready for business analytics. Users will get extracts of relevant Microsoft 365 data faster than ever before with the new, one-click experience in Azure Synapse Analytics, which will include:
+
+Synapse Templates: Within Synapse Analytics, developers can connect to a multitude of data sources for advanced analytics. Developers will be able to easily connect to Microsoft 365 data with a new pipeline template. The pipeline template will simplify the configuration experience by enabling a one-click experience to set up Mapping Data Flows, saving time and effort.
+Mapping Data Flows will build on top of Copy Activity functionality by improving the way Microsoft 365 data is brought in for analysis. Mapping Data Flows will clean, normalize and flatten the data into Parquet format, which is much cheaper and faster to process with big data processing.
+Microsoft is also streamlining the process to get started with these updates:
+
+ISV Flow: Independent Software Vendors (ISVs) will be able to directly develop analytics apps on top of their customer’s data given the customer’s consent. A new billing model will directly bill the ISVs, rather than the customer.
+New Approval and Consent Experience: Microsoft 365 admins will be able to grant access to Microsoft 365 data directly from the admin center and control the availability of the data to tenants.
+In addition, developers will be able to deploy prebuilt solution templates from key analytics scenarios, such as customer relationships, business processes and security and compliance. All scenarios are open source and extensible and include:
+
+Organizational Network Analysis Template: This new template utilizes aggregated, anonymized data to visualize the connectivity within an organization. Network connectivity is key to boosting productivity, agility, innovation and employee engagement.
+SharePoint Information Oversharing Template: This allows customers to better understand how files on SharePoint are being shared across and outside their organizations, analyze if files are marked with the right Microsoft Information Protection (MIP) labels and create information boundaries to better protect their organizations files and documents.
+The following updates are built with enhanced security, governance and user privacy to protect sensitive data and reduce risk exposure ready to use out-of-the-box:
+
+End-to-end encryption: This will add an additional level of security, so when data is sitting in Azure it is encrypted at rest by default. Malicious actors would not be able to read sensitive data even if they could access it. This adds an additional level of security for organizations to protect sensitive Microsoft 365 data from being misused.
+Audit Logging in Microsoft Compliance Center (MCC): To better govern data, end-to-end audit logging in Microsoft Compliance Center (MCC) tracks how an app is using sensitive Microsoft 365 data. Microsoft 365 admins can learn how their data is used and enforce proper data usage, thereby mitigating risk of data leakage.
+Enhanced User Identity Obfuscation: By default, data analysts and third parties developing on top of Microsoft 365 data will not be able to tie the data to a specific individual within the organization, preserving user privacy and enabling organizations to run their business process analytics and reporting on top of obfuscated data.
+These updates are coming soon in preview.
+
+Learn more about this update.
+
+Two people work together on a large computer screen
+7. Power Platform 7.1. Power Platform
+​​​​​​​7.1.1. Power Automate introducing new way to automate using natural language and AI
+A new way in Power Automate to accelerate automation using natural language will enable users to describe what they want to automate, and AI will build the flow in seconds without searching or guesswork. Once a user selects a suggested flow, they will set up the appropriate connectors and then finalize it within the flow designer. In the create page for Power Automate, a new option will allow users to create a cloud flow by simply describing the flow, selecting the connectors and finalizing the automation. This feature is now in preview.
+
+Learn more about this update.
+
+​​​​​​7.1.2. Power Automate innovations for user engagement, robotic process automation deployment
+Power Automate is introducing new ways for an organization to use its service and deploy robotic process automation (RPA) across their enterprise. Makers and automation Center of Excellences (CoE) will benefit from these latest innovations and include:
+
+An automation CoE starter kit to help companies establish this practice with greater ease. Along with this, Microsoft is rolling out a new business approvals kit. Both updates are generally available.
+Power Automate expressions by example is a new method for generating expressions when creating cloud flows, specifically when it comes to data reshaping. Users will be able to provide an example of how they want their data returned to a flow, and suggested expressions will generate using AI to apply the suggested expression to their cloud flow. This update is in preview.
+Native Power Automate integration in Excel will let users access the Automate menu and Excel-specific templates for automation while keeping work within the same Excel menu. This update is in preview.
+Learn more about this update.
+
+​​​​​​7.1.3. Optimize workflows and document processing with AI Builder
+Microsoft Intelligent Document Processing, powered by AI Builder and Power Automate, enables end-to-end document processing with no coding required. Processing documents – from invoices to account statements – can be a cumbersome task, especially as a manual task. Automating this process with the power of AI Builder reduces process time, increases the accuracy of extracted data and lets users concentrate on more high-priority workflows.
+
+Feature updates include:
+
+Feedback Loop, in preview, will give users the ability to continuously improve the quality of outputs from AI models. Review elements are sent through for the user to validate and, if retraining is required, it’s sent through a feedback loop queue. Users can take low accuracy-reviewed documents and retrain the model to improve its performance.
+Unstructured Docs, now generally available, adds an additional document type that AI Builder can use to extract data from. With structured and semi-structured documents already supported, free-form document types (contracts, statements of work, letters) are now also supported, increasing applicability of use cases.
+Additional Language Support for text recognition now supports 164 languages. Handwritten text detection now has nine languages, including English, Chinese (simplified), German, French, Italian, Japanese, Korean, Portuguese and Spanish. This feature is now generally available.
+​Multi-Table Extraction, now generally available, supports both structured and unstructured documents and can extract data from more than two pages of documentation that the user can tag. Once the user tags the table on the first document the model will process the document page-by-page to identify all the tables and data within.
+Learn more about this update.
+
+​​​​​​​7.1.4. Power Platform Managed Environments features automated low-code governance and security capabilities at scale
+Managed Environments for Power Platform is a collection of features that enable IT admins to manage Microsoft Power Platform environments and govern low-code solutions at scale with enhanced control, more visibility and less effort. Managed Environments for Power Platform, announced in July in preview, is now generally available.
+
+Offerings for Managed Environments for Power Platform now available include:
+
+Weekly Digest provides proactive notifications to give insights into most-used and least-used apps in low-code environments, allowing admins to clean up unused resources or celebrate apps that are being extensively used.
+Limit Sharing controls can be used to rein in app sprawl and reduce oversharing by limiting who can use apps in a Power Platform environment, removing sharing among security groups and limiting the number of users.
+Environment-scoped Data Loss Protection (DLP) policies deliver Power Platform admins visibility into environment-specific DLP polices to ensure if policies have been created.
+Simple environment activation allows Power Platform admins to easily activate Managed Environments for Power Platform in the Power Platform admin center in a few clicks.
+Learn more about this update or download visual assets.
+
+​​​​​​7.1.5. Microsoft Power Pages updates provide enhanced design studio, new templates
+Microsoft Power Pages is a low-code development and hosting platform ideal for building business-centric websites, both for low-code makers and professional developers. Power Pages, announced as a stand-alone product Microsoft Build 2022, is now generally available. Updates for Power Pages include:
+
+Design Studio helps makers to design multi-step forms in a seamless and effortless way, without code, all within the Design Studio. Makers will also be able to add custom cascading style sheets (CSS), preview site pages on different screen sizes and control when changes go live when publishing sites.
+Templates Hub enables 16 new template options. Instead of starting from scratch, users can easily customize the look and feel, model data and extend functionality to solve common industry-specific use cases, including building permits, after-school registrations and meeting scheduling, and extend to Dynamics 365 customer and partner scenarios.
+Learn Hub now includes a tutorials section with videos, documents and resources to guide users through site experiences.
+Pro-developer tools have been updated to empower makers to use best-in-class Visual Studio (VS) Code Web to edit source code for page content (HTML and Liquid), page styles (CSS) and page scripts (JavaScript).
+Security and governance updates include turn-key integration with Azure Web Application Firewall, content delivery network (CDN) support with Azure Front Door, support for custom domains and added support for new Microsoft Dataverse data types for makers and professional developers.
+Licensing model simplifies the model from daily sign ins and page views to monthly authenticated and anonymous users. Power Pages will be available through pre-paid, capacity-based subscriptions and pay-as-you-go meters.
+Learn more about this update.
+
+​​​​​​7.1.6. Power BI updates enable self-service data analytics, adds connectivity to OneDrive and SharePoint
+Power BI updates, now in preview, will enable organizations to scale self-service analytics by further removing friction to deployment, creation and sharing and include:
+
+Power BI in Office installer: Power BI will be automatically installed for Office users, reducing the need for manual deployment by the IT department. For customers that have Office or Microsoft 365 E5 where Power BI is included, they will save time and be able to scale Power BI faster.
+View and edit Power BI reports directly from OneDrive and SharePoint: Users will be able to view and edit Power BI reports from within OneDrive and SharePoint without needing to download Power BI Desktop. This feature will make it easier for users to preview and collaborate on reports from their OneDrive or SharePoint files.
+B2B dataset sharing and report discoverability: The business-to-business (B2B) Discoverability feature will provide an experience within the users’ own tenant to help them discover all content shared with them by external users. The dataset sharing feature allows B2B users to discover, connect to and work with datasets in their own home tenant. With this capability, B2B users will be able to build new reports and data models within their home tenant using the shared datasets.
+Large dataset reporting support: Working with very large datasets can traditionally present a performance challenge in terms of response time in DirectQuery mode. Enhancements will introduce an optimize setting in the Power BI Desktop ribbon that will enable easy access to configure settings, enhancing response time.
+Easier migration to Power BI Premium: Customers who use Azure Analysis Service will be able to migrate to Power BI Premium with lower effort while also preserving the full set of capabilities they’ve come to depend on, leading to a more cost-effective migration journey.
+Power BI reports and datasets in a Power App solution: Power Apps solutions are a Microsoft Power Platform tool that enables users to deploy apps built using Power Apps, Power Automate, Microsoft Dataverse and other Power Platform services. Until now, Power Platform hasn’t supported content developed in Power BI. With the release of this feature, Power BI reports and datasets will be included as part of a Power Platform solution for import, export and customization.
+Learn more about this update or download visual assets.
+
+​​​​​​7.1.7. Power Apps updates enable collaboration, fusion development, micro-apps
+Updates for Power Apps, now in preview, are designed to enable collaboration and include:
+
+Co-authoring in modern app designer: Co-authoring will build on commenting by enabling developers of all backgrounds to simultaneously edit apps in real time using a Microsoft PowerPoint-like experience.
+
+Co-authoring will allow multiple makers – whether professional or citizen developers – to make changes to the app at the same time and see those changes in real-time. As a result, teams can innovate together and build stronger connections between professional developers and business domain experts, a critical ingredient to maximizing low-code development.
+
+Integrated virtual agent in Power Apps: As makers progress through their development journey, it’s natural to have lots of questions, which is why discovering the right support resources is critical. That is where the integrated virtual agent comes in. The virtual agent (using Power Virtual Agents) will surface relevant external resources to assist users with the app development process and promote greater knowledge building across an organization’s internal maker community. Through intelligent matching, it will also connect new makers with experienced makers, advisors and internal community members.
+
+Cards in Power Apps: In a hybrid world, getting work done in one app, collaborating with colleagues in another app and constantly switching back and forth between them is a toll on time and productivity. That is why Microsoft is introducing cards in Power Apps, a new way to create and send micro-apps to share, collect and connect data and make critical business decisions – all without ever leaving Microsoft Teams.
+
+Power Apps will give low-code developers the ability to create cards in the familiar drag-and-drop Power Apps designer, complete with Power Fx integration. The new cards designer in Power Apps will target today’s rich and interactive platforms with small, focused time-saving experiences – including polls, data gathering and surveys, as well as more advanced business cases.
+
+Learn more about this update.
+
+​​​​​​7.1.8. Microsoft Dataverse enables developers to connect to external data sources
+Microsoft Dataverse has supported virtual tables for a long time. They’re extremely powerful but can be difficult to set up. With this new release, users will be able to create tables in Dataverse that surface external data by leveraging simple connections to find that external data. For example, a Dataverse table with data from an Excel workbook in OneDrive or a SQL Server in Azure.
+
+Depending on the connection, a table will be automatically generated with the correct schema and integration. Users can do all this through a simple wizard in Power Apps, which gives them the control they need over configuring the details while creating the Dataverse table. This update is coming to preview in early 2023.
+
+Learn more about this update.
+
+People huddled together over their computers
+8. Security 8.1. Security
+8.1.1. Microsoft Defender for Cloud adds new protections for comprehensive security
+New capabilities for Microsoft Defender for Cloud will help organizations strengthen their cloud security posture, extend threat protection across workloads and integrate DevOps security across hybrid and multicloud environments. These updates are Microsoft’s latest steps to make Defender for Cloud a comprehensive cloud-native app protection platform.
+
+New capabilities in Defender for Cloud include:
+
+Microsoft Defender for DevOps: A new solution that will provide visibility across multiple DevOps environments to centrally manage DevOps security, strengthen cloud resource configurations in code and help prioritize remediation of critical issues in code across multi-pipeline and multicloud environments. With this preview, leading platforms like GitHub and Azure DevOps are supported and other major DevOps platforms will be supported shortly.
+Microsoft Defender Cloud Security Posture Management (CSPM): This solution, available in preview, will build on existing capabilities to deliver integrated insights across cloud resources, including DevOps, runtime infrastructure and external attack surfaces, and will provide contextual risk-based information to security teams. Defender CSPM provides proactive attack path analysis, built on the new cloud security graph, to help identify the most exploitable resources across connected workloads to help reduce recommendation noise by 99%.
+Microsoft cloud security benchmark: A comprehensive multicloud security framework is now generally available with Microsoft Defender for Cloud as part of the free Cloud Security Posture Management experience. This built-in benchmark maps best practices across clouds and industry frameworks, enabling security teams to drive multicloud security compliance.
+Expanded workload protection capabilities: Microsoft Defender for Servers will support agentless scanning, in addition to an agent-based approach to virtual machines (VMs) in Azure and AWS. Defender for Servers P2 will provide Microsoft Defender Vulnerability Management premium capabilities. Microsoft Defender for Containers will expand multicloud threat protection with agentless scanning in AWS Elastic Container Registry. These updates are in preview.
+Learn more about this update or download visual assets.
+
+8.1.2. Save on Microsoft Defender for Endpoint for limited time
+Organizations wanting to modernize their endpoint protection are looking to move away from legacy antivirus and are turning to Microsoft Defender for Endpoint. Microsoft is announcing a limited-time sale of 50% off Defender for Endpoint Plan 1 and Plan 2 licenses, allowing organizations to do more and spend less by modernizing their security with a leading endpoint protection platform.
+
+Learn more about this update.
+
+​​​​​​​8.1.3. Microsoft 365 Defender now disrupts ransomware at machine speed
+Microsoft 365 Defender now automatically disrupts ransomware attacks. This is possible because Microsoft 365 Defender collects and correlates signals across endpoints, identities, emails, documents and cloud apps into unified incidents and uses the breadth of signal to identify attacks early with a high level of confidence.
+
+Time is critical in ransomware attacks, and now Microsoft 365 Defender can automatically contain affected assets, such as endpoints or user identities. This helps stop ransomware from spreading laterally, which can substantially reduce the overall cost of an attack while improving a company’s resiliency to recover. The security operations team stays in full control of investigating, remediating and bringing assets back online once they are returned to a healthy state.
+
+Learn more about this update.
+
+​​​​​​8.1.4. Endpoint Management updates
+Microsoft will launch the Advanced Management Suite in March 2023 as a new, cost-effective premium endpoint management plan. With the plan to build the new premium capabilities in the cloud, Microsoft is also announcing that Microsoft Intune is the new name for the expanding family of endpoint management products. Microsoft Configuration Manager will remain a part of that product family.
+
+Additionally, Microsoft is announcing individual add-on solutions to Microsoft Intune and the upcoming bundled suite of solutions, including:
+
+Microsoft Tunnel for mobile app management (MAM) will be released in January as the second add-on and will be included in the scope of the future bundle. Tunnel for MAM will enable workers to securely access company resources without requiring device enrollment. Users can remain productive on their device of choice and retain privacy of their personal data, all while empowering IT to apply policies to protect corporate data.
+
+Endpoint privilege management, now in preview, will launch at the same time as Microsoft Intune Suite. This capability will allow IT to set policies to dynamically elevate standard users with admin permissions, removing barriers to productivity while reducing the risk of attack on users with admin privileges.
+
+Microsoft Intune Suite also will include a way to reduce risks of vulnerabilities by keeping apps up to date. Combining the power of Microsoft Defender with Microsoft Intune will help identify and remediate potential vulnerabilities with automated app patching as an add-on.
+
+The suite also will include capabilities that reflect Microsoft’s deep investment in intelligent automation and data insights, as well as enhancements to the existing remote help for Windows capability. It will add remote help for Android as incremental value to the existing remote help add-on.
+
+Learn more about this update.
+
+8.1.5. Microsoft Entra Identity Governance in preview
+Microsoft Entra Identity Governance, now in preview, will help organizations ensure that the right people have the right access to the right resources at the right time. This release will deliver a comprehensive identity governance product for both on-premises and cloud-based user directories. Microsoft Entra Identity Governance will help organizations simplify operations, support regulatory compliance and consolidate multiple identity point solutions.
+
+The newly released capabilities include life cycle workflows to automate repetitive tasks, connection to on-premises to enable consistent policies for all users and separation of duties in entitlements management to help safeguard against compliance issues. These complement existing Microsoft Entra Identity Governance features, including access reviews, access certification, entitlements management and privileged identity management.
+
+Additional announcements for Microsoft Entra include:
+
+Workload Identities, an identity and access management solution that manages and secures identities for digital workloads, such as apps and services and controls access to cloud resources, will be generally available in November 2022. Customers can create risk-based policies with Conditional Access, detect and respond to compromised workload identities with Identity Protection and perform Access Reviews to enforce least-privileged access to workload identities more securely.
+Certificate-based Authentication (CBA), a key multifactor authentication method that meets the U.S. Executive Order on Cybersecurity, is now in preview. It will enable customers to adopt easily deployable phishing-resistant authentication with an improved user experience for identifying certificate authentication factors.
+Conditional Access Authentication Strengths, which allow admins to require specific authentication methods based on the resource. With Authentication Strengths, admins can use the right multifactor authentication (MFA) for the right resource, like phishing-resistant MFA for the most critical resources.
+Learn more about this update.
+
+8.1.6. Microsoft Audit Search releasing faster, reliable search
+An update to the Microsoft Audit Search is now generally available for both Microsoft 365 E3 and E5 customers. This revamp of the search tool builds on the familiar search UI that currently enables searching across critical audit log events to understand user actions and gain insight into the security of company data.
+
+With the launch of New Search, users can run 10 concurrent audit search jobs and review the progress percentage, result number and job status all from the UI. Historical search jobs results are stored for 30 days and can be accessed after completion. Additionally, users can filter and export this data. The browser window can also be closed while the searches are being completed.
+
+Learn more about this update.
+
+​​​​​​8.1.7. New eDiscovery features to support modern collaboration
+Many customers often consider shared documents or cloud attachments as a form of communication, and therefore are required to preserve and make that content discoverable. While users benefit from quickly sharing files for visibility and collaboration, this practice has been challenging for eDiscovery and legal professionals.
+
+To help customers efficiently meet their regulatory obligations for discovery, eDiscovery (Premium) will support the ability to discover the version of the document at the time that it was shared. This will help ensure that the correct document information is available to eDiscovery processes. This update is in preview.
+
+As more and more business-critical information is shared via Microsoft Teams, reactions to messages are an important indicator of message acknowledgement and response, often communicating intent or approval to a message that may hold important case evidence.
+
+Microsoft Purview eDiscovery (Premium) now includes capturing reactions to specific Teams messages and conversations within eDiscovery collections:
+
+See who reacted with what reaction (thumbs up, heart, laugh, etc.) to what message at what time to understand who knew what when.
+For users on Legal hold, see reactions to edited and/or deleted messages.
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+​​​​​​8.1.8. Simplify data governance with Microsoft Purview Data Lifecycle Management
+Comprehensive security requires a proactive approach to data protection and governance. With the increase in hybrid work, Microsoft knows users want to balance modern security with modern collaboration. The newest innovations in Microsoft Purview Data Lifecycle Management are designed to help address these challenges with a focus on Microsoft Teams data governance and extensibility. These features include:
+
+Retention labels: Allows users to apply data governance while they do their work. Now generally available, users can apply data retention and deletion policies directly in the files tab within Microsoft Teams.
+Retain shared versions: This feature will help compliance officers meet financial services regulations and will also help CISOs conduct internal investigations. Users will be able to retain the exact version of a file shared as a link in a Microsoft Teams message or email, which connects the context of the message with the file version viewed by the person. This feature is now in preview.
+Customizing Microsoft Purview Data Lifecycle Management: Power Automate integration with Microsoft Purview Data Lifecycle Management will help customers build a custom process at the end of a retention period to meet their requirements. For example, notify users before deletion of data or require an approval. This integration is now in preview.
+Microsoft Graph APIs: Now in preview, Microsoft Graph APIs will allow users to manage retention labels and event-based retention. These APIs will allow organizations to connect other systems to Microsoft Purview Data Lifecycle Management.
+Learn more about this update.
+
+8.1.9. Insider Risk Management features new capabilities
+Insider Risk Management is the Microsoft Purview solution designed to help organizations identify and manage insider risks. To help users detect, prioritize and investigate risks, Microsoft is introducing new features which are discussed in a new report that helps customers think about insider risk in a holistic manner.
+
+Some of the new features, in preview, include:
+
+Enhancements to triage and detection capabilities.
+Integration of Insider Risk Management and Communication Compliance.
+Insights for actions by potential high-impact users.
+Improved analytics assessment insights.
+Learn more about this update.
+
+​​​​​​8.1.10. Safeguard sensitive data with extensible data protection
+Several updates, in preview for Microsoft Purview, are designed to help users safeguard sensitive material across apps, platforms and clouds using extensible data protection and include:
+
+Authorized Printer: This will allow users to create groups of printer devices and designate restrictive actions for each group within data loss prevention (DLP) policy in Microsoft Purview Data Loss Prevention.
+Authorized USB: Users will be able to create groups of USB devices and designate restrictive actions for each group within DLP policy. Users can create authorized or unauthorized groups of USB devices based on serial numbers and allow “copy” of documents to certain groups of USB devices and block others.
+Authorized network share path: Users will be able to create groups of network share paths and designate restrictive actions for each group within DLP policy.
+Network location as a condition: Users will be able to put network location as a condition in DLP policies. As an example, users will be able to block copying sensitive content to network shares on a personal Wi-Fi network but not on a corporate Wi-Fi network or VPN.
+​Sanctioned and unsanctioned site groups for different sensitive files: With this capability, users will be able to create groups of service domains and manage restrictions for the groups within the DLP policy. For example, allow upload of sensitive data only to corporate SharePoint sites and nowhere else.
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+​​​​​​8.1.11. Microsoft Purview Information Protection helps users discover, classify, protect and manage sensitive information
+Microsoft Purview Information Protection is a solution that helps users with sensitive information. New features for Purview Information Protection make it easier to discover, classify, protect and manage content across multiple environments and include:
+
+Out-of-the box trainable classifiers: This will include over 20 classifiers to quickly discover and auto-classify more than 30 types of sensitive content in various categories. This feature is in preview.
+Credential-sensitive information types (SITs): This provides more than 40 types of SITs to enable auto-classification of sensitive credentials to protect Azure and other multicloud resources from cyberattacks. This feature is generally available.
+Co-authoring encrypted documents: Multiple authors can edit labeled and protected documents to ensure secure collaboration and improve productivity on mobile devices. This feature is generally available.
+Manual application/editing: Sensitivity labels are natively integrated into Adobe Acrobat, allowing users to manually label and edit files. This feature is generally available.
+Label protection: Labels and protection applied on Office documents will remain when converting to PDFs in Microsoft Word, Excel and PowerPoint on PC for Windows, providing consistent labeling across file types and improved ease of use. This feature is generally available.
+New Office built-in features: New features will include a more visible sensitivity bar and S/MIME encryption in Outlook emails and user-defined permissions to restrict access to domain names. This feature is in preview.
+Azure Information Protection scanner admin experience: System admins will be able to use a single compliance portal to configure scans of on-premises repositories, have the results displayed in activity explorer and content explorer for analysis and configure data loss prevention (DLP) and label policies for the Azure Information Protection Scanner. This feature is in preview.
+Learn more about this update.
+
+​​​​​​8.1.12. Microsoft Sentinel helps users see and stop threats across the enterprise
+A major benefit of Microsoft Sentinel is the ability to search across vast amounts of security data quickly and easily stop breaches in a fast, cost-effective manner. With new low-cost options for ingesting and archiving data, now generally available, customers can collect and search across all data in Microsoft Sentinel.
+
+Basic Logs is designed to ingest high-volume data from sources to correlate and investigate an incident. Archived logs offer low-cost, long-term storage that is searchable for up to seven years. Log restore enables restoration of logs for high performance, interactive investigation queries as needed.
+
+Additionally, with the Microsoft Sentinel Migration and Modernization Program customers can get guidance, resources and expert help to simplify and accelerate the migration of their security information and event management (SIEM) to Microsoft Sentinel.
+
+Learn more about this update.
+
+8.1.13. Latest update in Azure network security strengthens security and increases agility
+Low-cost IP Protection option for Azure DDoS Protection
+
+IP Protection, now in preview, is for small- and medium-sized businesses and will provide enterprise-grade protection at an affordable price point. Customers will have the flexibility to enable DDoS protection on an individual public IP to defend against DDoS attacks. IP Protection is cost-effective and provides enterprise-grade capabilities such as adaptive real-time policy tuning, detailed attack analytics and service-level agreement (SLA) guarantee.
+
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+​​​​​​8.1.14. Confidential virtual machine options across Azure
+New confidential virtual machine options across Azure include:
+
+​Confidential virtual machine node pools for Azure Kubernetes Service (AKS): Confidential virtual machine (VM) node pools for AKS using confidential VMs based on 3rd Gen AMD EPYC™ processors with Secure Encrypted Virtualization-Secure Nested Paging (SEV-SNP) security features are now generally available. These confidential node pools on AKS enable a seamless lift and shift of Linux container workloads to Azure.
+
+​Migrating to AKS means that organizations can now opt into a highly scalable, full AKS feature parity without the overhead of changing code or performance degradation. AKS is now equipped to have confidential and non-confidential node pools in a single cluster. As a result, apps processing sensitive data can reside in a VM-level Trusted Execution Environment (TEE) node pool with memory encryption keys generated by the chipset itself.
+
+Confidential virtual machine option for Azure Virtual Desktop: ​The confidential virtual machine (VM) option for Azure Virtual Desktop is now in preview. Microsoft Azure Virtual Desktop users will be able to choose a confidential VM for their desktop virtualization experience. This capability ensures that workloads running on a user’s virtual desktop are encrypted in memory and can protect data in use. These desktops are powered by the latest 3rd Gen AMD EPYC™ processor with SEV-SNP technology, which supports hardware-based encryption and uses encryption keys generated by a dedicated secure processor inside the AMD CPU.
+
+Confidential virtual machine option for SQL Server on Azure Virtual Machines now generally available: Running SQL Server on Azure confidential virtual machines (VMs) enables SQL Server on Azure VMs customers to confidently bring their sensitive data to Azure. Azure confidential VMs provide a strong, hardware-enforced boundary that hardens the protection of the guest OS against host operator access. For SQL Server customers, Azure confidential VMs are designed to make both the data in-use, (the data processed inside the memory of the SQL Server), as well as the data at rest stored on VM’s drives not accessible to unauthorized users from the outside of the VM.
+
+Guest attestation for AMD confidential virtual machines: The guest attestation feature for the latest 3rd Gen AMD EPYC™ processors with SEV-SNP technology is now generally available. With guest attestation, customers can have increased confidence that their software inside an AMD-confidential virtual machine (VM) runs on a hardware-based trusted execution environment (TEE) with security features turned on.
+
+Learn more about confidential VMs for Azure Virtual Desktop, SQL Server on confidential Azure VMs and guest attestation.
+
+A woman sits at a desk working on a computer
+9. Windows 9.1. Windows
+​​​​​​9.1.1. Windows 365 continues to expand
+Windows 365 keeps growing with expansion to new audiences continuing through the addition of new products and updates to the service, including:
+
+Windows 365 Government, a new offering for Government Community Cloud and Government Community Cloud High organizations, enables U.S. government contractors – and the local, state and federal customers they support – to securely stream their Windows apps, data, content and settings from the Microsoft Cloud to any device, at any time. Windows 365 Government is now generally available.
+The Windows 365 app will provide a direct path to Windows 365 from the taskbar or Start menu with a personal, customized experience that can be tailored to each user. The Windows 365 app, now in preview, will be available in the Microsoft Store on Windows.
+​Citrix HDX Plus for Windows 365 helps IT teams deliver support for a broader range of endpoint devices and peripherals, advanced security and policy controls and a better experience in low-bandwidth environments. In the Tenant admin section of the Microsoft Endpoint Manager admin center, a new option for Windows 365 will allow admins to turn on the integration and allow licensed employees to access their Windows 365 Cloud PCs in the Citrix environment they use today. This update is in preview.
+Learn more about this update.
+
+9.1.2. Update Compliance redesigned with Azure Workbooks
+Update Compliance provides detailed deployment monitoring for Windows client features and quality updates. Update Compliance is migrating the reports to Azure Workbooks to make them more modular and customizable. The new solution, Windows Update for Business reports, aligns with the Windows Update for Business brand to make it clear the reports are for Windows updates and servicing.
+
+​​​​​​​This change, available in November, will provide a simpler and more consistent product, while also creating a framework that allows users to tailor experiences to their unique business needs. Using Azure Active Directory (Azure AD), these new reports will provide more consistent data that seamlessly integrates with the Microsoft 365 ecosystem and other solutions like Microsoft Intune.
+
+Learn more about this update.
+
+9.1.3. Test Base for Microsoft 365 releases new preview features
+Test Base is a cloud-based intelligent testing solution developed with the goal of helping organizations modernize the way they validate their apps against Windows releases. Based on feedback, Microsoft is adding new features to help make app testing even easier and expand the apps against which they can be tested. These features include:
+
+In-place upgrade support: Enables customers to evaluate app readiness when migrating to Windows 11 by validating the app on Windows 10 and Windows 11 on the same virtual machine. Doing this will provide organizations with a comprehensive upgrade readiness assessment and peace of mind that the app will continue to run as expected when upgrading. This will preview in November.
+Microsoft 365 Apps testing: Support for testing how apps work with the monthly update channel of the Microsoft 365 apps. This feature is now in preview.​​​​​​​
+Learn more about this update by contacting the Microsoft Media and Analyst Events Team.
+
+​​​​​​9.1.4. In-product organizational messages in preview
+Employees often get information from IT via email, Microsoft Teams and other communication channels. Important communications do not always get read, leading Microsoft to develop another way to get information to employees. Organizational messages will provide a new communication channel for IT to connect with employees directly through Windows surfaces, including above the taskbar, in the Notifications center and in the Get Started app. With these targeted contextual messages, configured and managed through Microsoft Intune, IT can offer information to onboard employees or provide reminders of important training that might otherwise be lost. This feature will be in preview in November.
+
+Learn more about this update.
+
+​​​​​​9.1.5. Universal Print announces new management features
+Universal Print, Microsoft’s secure cloud printing solution, is making two new additions to help make print management easier.
+
+Delegated admin lets IT teams in branch offices manage the printers at just their locations. This will enable these teams to quickly register new printers with Azure Active Directory (Azure AD) and support employees without relying on the central IT team. Delegated admin support will be available in preview by the first week of November.
+
+To help admins diagnose printer problems, the printer’s jobs page will be enhanced by adding information, such as the name and size of the item, time taken at each step and error code for failed jobs, with links to the corresponding help pages. This feature will be generally available by the end of October.
+
+Learn more about this update.
+
