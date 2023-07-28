@@ -1,0 +1,7 @@
+{
+    "editor.bracketPairColorization.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.renderWhitespace": "all",
+    "files.trimTrailingWhitespace": true,
+    "editor.detectIndentation": false,
+}

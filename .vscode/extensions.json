@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "ms-semantic-kernel.semantic-kernel",
+        "ms-azuretools.vscode-bicep",
+        "ms-dotnettools.csharp",
+        "ms-vscode.vscode-node-azure-pack"
+    ]
+}
