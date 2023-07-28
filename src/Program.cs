@@ -1,13 +1,14 @@
 using Microsoft.SemanticKernel;
+using Microsoft.SemanticKernel.Memory;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 builder.Services.AddSingleton<IKernel>(o => {
     var builder = Kernel.Builder;
 
@@ -17,6 +18,13 @@ builder.Services.AddSingleton<IKernel>(o => {
         getConfig("OpenAIModelId"),
         getConfig("AzureOpenAIEndpoint"),
         getConfig("AzureOpenAIKey"));
+
+    builder.WithAzureTextEmbeddingGenerationService(
+        "text-embedding-ada-002",
+        getConfig("AzureOpenAIEndpoint"),
+        getConfig("AzureOpenAIKey"));
+
+    builder.WithMemoryStorage(new VolatileMemoryStore());
 
     return builder.Build();
 });
