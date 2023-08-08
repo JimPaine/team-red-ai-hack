@@ -2,6 +2,8 @@ using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.SkillDefinition;
 using Microsoft.SemanticKernel.Orchestration;
 using Microsoft.SemanticKernel.Memory;
+using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Options;
 
 namespace src.Plugins.Orchestrator;
 
@@ -12,30 +14,26 @@ public interface IOrchestratorPlugin {
 public class OrchestratorPlugin : IOrchestratorPlugin {
 
     private readonly IKernel kernel;
+    private readonly MemoryCache cache;
+
     public OrchestratorPlugin(IKernel kernel) {
         this.kernel = kernel;
+        this.cache = new MemoryCache(Options.Create(new MemoryCacheOptions {}));
     }
 
     [SKFunction]
     public async Task<string> Execute(SKContext context) {
         string input = context.Variables["input"];
 
-        var getIntent = this.kernel.Skills.GetFunction("Orchestrator", "GetIntent");
-        Task<SKContext> response = getIntent.InvokeAsync(input);
-        var memories = this.kernel.Memory.SearchAsync("bookofnews", input, 5);
+        if(this.cache.TryGetValue<string>(input.GetHashCode(), out string? result)) { return result; }
 
-        string myMemory = "";
-        await foreach (MemoryQueryResult memory in memories)
-        {
-            myMemory += memory.Metadata.Text + " ";
-        }
-        await response;
+        var getIntent = this.kernel.Skills.GetFunction("Orchestrator", "GetIntent");
+        var response = await getIntent.InvokeAsync(input);
 
         var inputs = new ContextVariables(input);
-        inputs.TryAdd("memories", myMemory);
 
         ISKFunction? intentFunction = null;
-        switch(response.Result.Result) {
+        switch(response.Result) {
             case "Poem":
                 intentFunction = this.kernel.Skills.GetFunction("Plugins", "Poem");
                 break;
@@ -47,11 +45,15 @@ public class OrchestratorPlugin : IOrchestratorPlugin {
                 break;
         }
 
-        ISKFunction search = this.kernel.Skills.GetFunction("Plugins", "SearchMemories");
+        ISKFunction search = this.kernel.Skills.GetFunction("memory", "recall");
+        inputs.TryAdd("collection", "bookofnews");
+        inputs.TryAdd("relevance", "0.7");
+        inputs.TryAdd("limit", "5");
         var searchResponse = intentFunction != null
             ? await this.kernel.RunAsync(inputs, search, intentFunction)
             : await this.kernel.RunAsync(inputs, search);
 
+        this.cache.Set<string>(input.GetHashCode(), searchResponse.Result);
         return searchResponse.Result;
     }
 }

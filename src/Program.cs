@@ -39,6 +39,7 @@ builder.Services.AddSingleton<IKernel>(o =>
     kernel.LoadSemanticPlugins(Directory.GetCurrentDirectory(), Path.Combine(Directory.GetCurrentDirectory(),"Plugins"));
     kernel.ImportSkill(new OrchestratorPlugin(kernel), "OrchestratorPlugin");
     kernel.ImportSkill(new TimeSkill(), "time");
+    kernel.ImportSkill(new TextMemorySkill(kernel.Memory), "memory");
 
     return kernel;
 });
