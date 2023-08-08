@@ -1,4 +1,8 @@
-WRITE A SINGLE JOKE IN THE STYLE OF {{$style}} about {{$topic}}
+Take the following content
+
+{{$input}}
+
+and write a joke in the style of {{$style}}
 
 JOKE MUST BE SAFE THE FAMILY AND FOR THE WORKPLACE, CONTAIN
 NO SEXISM, RACISM, OR OTHER BIAS/BIGOTRY

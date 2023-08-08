@@ -1,7 +1,7 @@
 {
     "schema": 1,
     "type": "completion",
-    "description": "A skill for telling jokes",
+    "description": "Search memories",
     "completion": {
         "max_tokens": 256,
         "temperature": 0,
@@ -12,14 +12,14 @@
     "input": {
         "parameters": [
             {
-                "name": "topic",
-                "description": "The topic for the style of the joke",
+                "name": "memories",
+                "description": "memories to query",
                 "defaultValue": ""
             },
             {
-                "name": "style",
-                "description": "The style of the joke",
-                "defaultValue": "a dad joke"
+                "name": "input",
+                "description": "ask",
+                "defaultValue": ""
             }
         ]
     },

@@ -1,0 +1,1 @@
+Convert this "{{$INPUT}}" into a poem

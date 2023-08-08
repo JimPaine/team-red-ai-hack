@@ -1,10 +1,11 @@
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.Connectors.Memory.AzureCognitiveSearch;
 using Microsoft.SemanticKernel.Memory;
+using Microsoft.SemanticKernel.Skills.Core;
+using src;
+using src.Plugins.Orchestrator;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -14,7 +15,7 @@ builder.Services.AddSingleton<IKernel>(o =>
 {
     var builder = Kernel.Builder;
 
-    Func<string, string> getConfig = key => o.GetService<IConfiguration>()?.GetValue<string>(key) ?? throw new Exception($"Azure OpenAI Configuration missing");
+    string getConfig(string key) => o.GetService<IConfiguration>()?.GetValue<string>(key) ?? throw new Exception($"{key} Configuration missing");
 
     builder.WithAzureChatCompletionService(
         getConfig("OpenAIModelId"),
@@ -34,7 +35,10 @@ builder.Services.AddSingleton<IKernel>(o =>
     builder.WithMemoryStorage(store);
 
     IKernel kernel = builder.Build();
-    // GetEmeddingsForBookOfNews(kernel).Wait(); // Uncomment to generate embeddings for Book of News
+
+    kernel.LoadSemanticPlugins(Directory.GetCurrentDirectory(), Path.Combine(Directory.GetCurrentDirectory(),"Plugins"));
+    kernel.ImportSkill(new OrchestratorPlugin(kernel), "OrchestratorPlugin");
+    kernel.ImportSkill(new TimeSkill(), "time");
 
     return kernel;
 });
@@ -55,39 +59,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
-async Task GetEmeddingsForBookOfNews(IKernel kernel)
-{
-
-    int counter = 0;
-    foreach (string chunk in ChunkTextFile("./bookofnews.txt", 140))
-    {
-        Console.WriteLine($"Chunk {counter}: {chunk}");
-
-        await kernel.Memory.SaveInformationAsync("bookofnews", id: $"Chunk {counter++}",
-            text: chunk);
-    }
-}
-
-
-List<string> ChunkTextFile(string filePath, int recommendedLength)
-{
-    List<string> chunks = new List<string>();
-    string text = File.ReadAllText(filePath);
-
-    int startIndex = 0;
-    while (startIndex < text.Length)
-    {
-        int endIndex = startIndex + recommendedLength;
-        if (endIndex > text.Length) endIndex = text.Length;
-
-        while (endIndex < text.Length && !char.IsWhiteSpace(text[endIndex]))
-        {
-            endIndex++;
-        }
-        string chunk = text.Substring(startIndex, endIndex - startIndex);
-        chunks.Add(chunk.Trim());
-        startIndex = endIndex;
-    }
-    return chunks;
-}
